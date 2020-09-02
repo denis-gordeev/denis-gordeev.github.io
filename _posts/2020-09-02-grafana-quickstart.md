@@ -22,4 +22,4 @@ Then on the Grafana home page with the admin account add your InfluxDB DataSourc
 
 Then add a Dashboard. Grafana is quite clever, you need just to click and select your values.
 
-![Grafana Query example](2020-09-02-grafana.png)
+![Grafana Query example](grafana.png)
