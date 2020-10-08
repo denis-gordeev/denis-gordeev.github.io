@@ -1,0 +1,10 @@
+The issue is rather trivial but I took me some time when building a Docker file for and old project.
+
+If you have psycopg2==2.7 it is not compatible with Python3.8. You need to update your psycopg2.
+Unfortunately, the error is rather nonintuitive. That is =)
+
+See:
+
+[https://www.gitmemory.com/issue/psycopg/psycopg2/858/478589814](https://www.gitmemory.com/issue/psycopg/psycopg2/858/478589814)
+
+[https://bugzilla.mozilla.org/show_bug.cgi?id=1644770](https://bugzilla.mozilla.org/show_bug.cgi?id=1644770)
