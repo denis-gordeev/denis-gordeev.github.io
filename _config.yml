@@ -17,7 +17,8 @@ title:  Denis Gordeev - Personal Website & Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Denis Gordeev - Personal Website & Blog 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://denis-gordeev.github.io"
+lang: en
 github_username:  denis-gordeev
 
 # Build settings

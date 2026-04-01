@@ -1,0 +1,6 @@
+.bundle/
+.autowork/
+_site/
+vendor/
+autowork.log
+autowork.sh

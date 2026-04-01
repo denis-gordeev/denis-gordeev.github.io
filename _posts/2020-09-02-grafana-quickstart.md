@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Grafana Quickstart"
+date: 2020-09-02
+---
+
 I have not found a good introduction on writing data into Grafana and InfluxDB with http, so I write my own.
 
 First you need to create the database.
