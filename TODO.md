@@ -6,13 +6,14 @@ published: false
 
 ## Completed in this round
 
-- Added Jekyll front matter to both posts so they are rendered and listed consistently.
-- Set the production site URL in `_config.yml` so canonical URLs and feed metadata point to GitHub Pages.
-- Added `Gemfile.lock` and verified the site builds with Bundler using a local `vendor/bundle` path.
-- Expanded `README.md` with local development notes and linked task tracking.
+- Checked open GitHub issues and pull requests; no open items were returned for this repository.
+- Added a short homepage introduction so the front page is not only an archive listing.
+- Updated `about.md` with clearer profile text, the Telegram link, and an absolute CV link.
+- Published one new blog post with `AUTOWORK` in the title based on recent repository updates.
+- Verified the site still builds successfully with `bundle exec jekyll build`.
 
 ## Next actions
 
-- Refresh the About page and CV link with current profile information.
-- Add one or more recent posts or a short homepage introduction so the site is not just an archive listing.
-- Decide whether `_site/` should remain tracked or be removed from version control in a dedicated cleanup change.
+- Refresh the CV file if a newer public version is available.
+- Add the next AUTOWORK post only when there is a meaningful new public update and not more than once per day.
+- Consider adding a custom homepage layout or featured-post block if the site needs a stronger landing page.
