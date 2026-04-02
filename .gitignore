@@ -4,3 +4,4 @@ _site/
 vendor/
 autowork.log
 autowork.sh
+AUTOWORK_INSTRUCTIONS.md
