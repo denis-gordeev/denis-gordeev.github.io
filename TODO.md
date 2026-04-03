@@ -4,18 +4,18 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-02
+Latest automation round: 2026-04-03
 
 ## Completed in this round
 
-- Checked open GitHub issues and pull requests; no open items were returned for this repository.
-- Added a homepage highlights block with quick links to the about page, CV, Telegram channel, and the latest post.
-- Ignored the local-only `AUTOWORK_INSTRUCTIONS.md` file to keep future automation rounds focused on repository changes.
-- Reviewed whether to publish another AUTOWORK article and skipped it because the previous AUTOWORK post was published on 2026-04-01 and there was no substantive new public update to write about on 2026-04-02.
+- Read `AUTOWORK_INSTRUCTIONS.md` and kept the round focused on a small public-site update plus a new AUTOWORK blog post.
+- Tried to follow the issue and PR step, but GitHub GraphQL access is still unavailable locally because `gh` is not authenticated.
+- Updated the About page with a clearer links section and a pointer to the latest post.
+- Added a new AUTOWORK entry documenting the repository-facing content update for 2026-04-03.
 
 ## Next actions
 
 - Refresh the CV file if a newer public version is available.
-- Add the next AUTOWORK post only when there is a meaningful new public update and not more than once per day.
+- Keep adding AUTOWORK posts only when there is a meaningful public update and not more than once per day.
 - Consider replacing the default Minima home layout with a more custom landing page if the site needs a stronger first impression.
-- Add a small featured-post or featured-links visual treatment only if it can be done without introducing layout complexity.
+- Add a lightweight projects or talks section if there is public material worth linking from the About page.

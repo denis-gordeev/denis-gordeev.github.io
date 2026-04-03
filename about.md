@@ -6,8 +6,18 @@ permalink: /about/
 
 My name is Denis Gordeev. I work mainly with NLP and Python programming.
 
-You can find shorter updates and notes in my Telegram channel:
-[`t.me/nlp_party`](https://t.me/nlp_party)
+This site collects a few longer notes, while shorter updates and links go to my Telegram channel
+[`t.me/nlp_party`](https://t.me/nlp_party).
 
-My CV:
-[English-CV](/cvs/Gordeev_en_2022.pdf)
+## Links
+
+- Telegram: [`t.me/nlp_party`](https://t.me/nlp_party)
+- GitHub: [`github.com/denis-gordeev`](https://github.com/denis-gordeev)
+- CV: [English PDF](/cvs/Gordeev_en_2022.pdf)
+
+## Recent post
+
+{% assign latest_post = site.posts.first %}
+{% if latest_post %}
+- [{{ latest_post.title }}]({{ latest_post.url | relative_url }}) from {{ latest_post.date | date: "%B %-d, %Y" }}
+{% endif %}
