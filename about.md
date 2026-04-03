@@ -9,6 +9,12 @@ My name is Denis Gordeev. I work mainly with NLP and Python programming.
 This site collects a few longer notes, while shorter updates and links go to my Telegram channel
 [`t.me/nlp_party`](https://t.me/nlp_party).
 
+## What this site contains
+
+- Blog posts with technical notes and small repository updates.
+- A compact set of public links for people who want a quick overview.
+- Occasional `AUTOWORK` entries documenting maintenance changes made in this repository.
+
 ## Links
 
 - Telegram: [`t.me/nlp_party`](https://t.me/nlp_party)

@@ -18,3 +18,14 @@ This site is a small archive of notes, links, and blog posts. For shorter update
 {% if latest_post %}
 - Latest post: [{{ latest_post.title }}]({{ latest_post.url | relative_url }}) from {{ latest_post.date | date: "%B %-d, %Y" }}
 {% endif %}
+
+## What you will find here
+
+- Short technical notes on Python, NLP, and developer tooling.
+- Repository maintenance updates marked with `AUTOWORK` in the title.
+- Links to longer background material such as the CV and external profiles.
+
+## Start here
+
+If you are new to the site, start with the [About page](/about/) for the main links and then check the blog feed
+below for the newest note or maintenance update.
