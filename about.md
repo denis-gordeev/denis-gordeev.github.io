@@ -20,6 +20,7 @@ This site collects a few longer notes, while shorter updates and links go to my 
 - Telegram: [`t.me/nlp_party`](https://t.me/nlp_party)
 - GitHub: [`github.com/denis-gordeev`](https://github.com/denis-gordeev)
 - CV: [English PDF](/cvs/Gordeev_en_2022.pdf)
+- Blog archive: [all posts](/archive/)
 
 ## Recent post
 

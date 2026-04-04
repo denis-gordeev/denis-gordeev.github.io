@@ -13,6 +13,7 @@ This site is a small archive of notes, links, and blog posts. For shorter update
 ## Highlights
 
 - About: [short profile and links](/about/)
+- Archive: [all blog posts](/archive/)
 - CV: [English PDF](/cvs/Gordeev_en_2022.pdf)
 - Telegram: [`t.me/nlp_party`](https://t.me/nlp_party)
 {% if latest_post %}
@@ -28,4 +29,5 @@ This site is a small archive of notes, links, and blog posts. For shorter update
 ## Start here
 
 If you are new to the site, start with the [About page](/about/) for the main links and then check the blog feed
-below for the newest note or maintenance update.
+below for the newest note or maintenance update. If you want a compact chronological list, open the
+[archive page](/archive/).
