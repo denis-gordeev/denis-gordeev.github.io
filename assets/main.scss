@@ -1,0 +1,117 @@
+---
+---
+
+@import "minima";
+
+$accent-dark: #143642;
+$accent-soft: #f3efe6;
+$accent-warm: #c97b63;
+$text-strong: #1f2933;
+$line-soft: #d8d2c5;
+
+.site-header {
+  border-top: 6px solid $accent-dark;
+}
+
+.post-title,
+.post-content h2,
+.post-content h3,
+.site-title {
+  color: $accent-dark;
+}
+
+.hero-panel {
+  margin: 0 0 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, $accent-soft 0%, #fffaf2 100%);
+  border: 1px solid $line-soft;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(20, 54, 66, 0.08);
+}
+
+.hero-kicker {
+  margin-bottom: 0.75rem;
+  color: $accent-warm;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-summary,
+.latest-post-note,
+.archive-callout {
+  color: $text-strong;
+  font-size: 1.05rem;
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.25rem;
+}
+
+.quick-link-card {
+  display: block;
+  padding: 1rem;
+  color: $text-strong;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid $line-soft;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.quick-link-card:hover,
+.quick-link-card:focus {
+  border-color: $accent-warm;
+  box-shadow: 0 12px 24px rgba(20, 54, 66, 0.08);
+  transform: translateY(-2px);
+}
+
+.quick-link-card strong,
+.quick-link-card span {
+  display: block;
+}
+
+.quick-link-card span {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.home-section {
+  margin-top: 2rem;
+}
+
+.feature-list {
+  margin-left: 1rem;
+}
+
+.compact-post-list > li {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid $line-soft;
+}
+
+.compact-post-list > li:last-child {
+  border-bottom: 0;
+}
+
+.compact-post-list h3 {
+  margin: 0.15rem 0 0;
+  font-size: 1.15rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-panel {
+    padding: 1.1rem;
+    border-radius: 14px;
+  }
+
+  .hero-summary,
+  .latest-post-note,
+  .archive-callout {
+    font-size: 1rem;
+  }
+}

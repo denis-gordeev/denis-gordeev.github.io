@@ -20,6 +20,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://denis-gordeev.github.io"
 lang: en
 github_username:  denis-gordeev
+header_pages:
+  - about.md
+  - archive.md
 
 # Build settings
 markdown: kramdown
