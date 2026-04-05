@@ -110,6 +110,10 @@ $line-soft: #d8d2c5;
   line-height: 1.6;
 }
 
+.page-content h2 {
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 600px) {
   .hero-panel {
     padding: 1.1rem;
