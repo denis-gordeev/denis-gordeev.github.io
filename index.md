@@ -57,6 +57,9 @@ title: Denis Gordeev
           {{ post.title | escape }}
         </a>
       </h3>
+      <p class="post-summary">
+        {{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 28 }}
+      </p>
     </li>
     {% endfor %}
   </ul>

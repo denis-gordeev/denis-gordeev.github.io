@@ -103,6 +103,13 @@ $line-soft: #d8d2c5;
   font-size: 1.15rem;
 }
 
+.post-summary {
+  margin: 0.45rem 0 0;
+  color: #4b5563;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
 @media screen and (max-width: 600px) {
   .hero-panel {
     padding: 1.1rem;
