@@ -4,15 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-08
+Latest automation round: 2026-04-09
 
 ## Completed in this round
 
-- Read `AUTOWORK_INSTRUCTIONS.md` and used today's available post slot for one short AUTOWORK article.
-- Retried the issue and PR step; `gh auth status` still reports an invalid GitHub token, so remote issue and PR inspection remains blocked locally.
-- Added visible RSS/feed links on the homepage and About page so the built-in Jekyll feed is discoverable without inspecting source files.
-- Published `AUTOWORK: RSS feed is now linked from the site` for the 2026-04-08 automation round.
-- Verified the site build with `bundle exec jekyll build` after the content and template updates.
+- Researched recent public updates about Denis Gordeev, including academic publications and GitHub activity.
+- Created AUTOWORK post: "NIED corpus for numeric information extraction published at JCDL 2025" covering the recent paper co-authored by Denis Gordeev, Nikolay Arefyev, and Emil Davletov on numeric information extraction from dataset descriptions.
+- Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
 
@@ -22,3 +20,4 @@ Latest automation round: 2026-04-08
 - Consider exposing the feed link in the header or footer as well if more posts accumulate and subscription becomes a primary navigation path.
 - Consider adding tags or categories only if the technical-note section grows enough that a two-part archive stops being sufficient.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs instead of skipping that step.
+- Monitor for updates on Denis Gordeev's Telegram channel (t.me/nlp_party) for NLP and text processing news to feature in future posts.
