@@ -21,6 +21,7 @@ This site collects a few longer notes, while shorter updates and links go to my 
 - GitHub: [`github.com/denis-gordeev`](https://github.com/denis-gordeev)
 - CV: [English PDF](/cvs/Gordeev_en_2022.pdf)
 - Blog archive: [all posts](/archive/)
+- RSS feed: [feed.xml]({{ '/feed.xml' | relative_url }})
 
 ## Recent post
 

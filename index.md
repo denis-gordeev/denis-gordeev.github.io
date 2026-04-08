@@ -35,6 +35,10 @@ title: Denis Gordeev
       <strong>CV</strong>
       <span>Public English PDF version.</span>
     </a>
+    <a class="quick-link-card" href="{{ '/feed.xml' | relative_url }}">
+      <strong>RSS</strong>
+      <span>Subscribe to technical notes and AUTOWORK updates.</span>
+    </a>
   </div>
 </section>
 
@@ -74,7 +78,8 @@ title: Denis Gordeev
   </ul>
 
   <p class="archive-callout">
-    For the full chronology, use the <a href="/archive/">archive page</a>.
+    For the full chronology, use the <a href="/archive/">archive page</a> or subscribe via
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>.
   </p>
 </section>
 
