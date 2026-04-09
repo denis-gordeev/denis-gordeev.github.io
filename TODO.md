@@ -4,12 +4,15 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-09
+Latest automation round: 2026-04-09 (evening)
 
 ## Completed in this round
 
 - Researched recent public updates about Denis Gordeev, including academic publications and GitHub activity.
 - Created AUTOWORK post: "NIED corpus for numeric information extraction published at JCDL 2025" covering the recent paper co-authored by Denis Gordeev, Nikolay Arefyev, and Emil Davletov on numeric information extraction from dataset descriptions.
+- Created AUTOWORK post: "MASSIE at ACL 2025 and Nested Text Labelling at Dialogue 2025" covering two 2025 publications:
+  - **MASSIE** — a massively multilingual instruction-following IE benchmark (ACL 2025 Findings) with 215 datasets across 95+ languages and 5 core IE tasks, plus the novel LF1 structure-aware evaluation metric.
+  - **Nested Text Labelling Structures** (Dialogue 2025) — a three-tier nested data model framework for organising knowledge in AI, relevant to RuSentNE and the [rured2](https://github.com/denis-gordeev/rured2) repository.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
