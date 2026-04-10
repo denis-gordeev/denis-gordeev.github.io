@@ -4,18 +4,18 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-09 (late evening)
+Latest automation round: 2026-04-10 (morning)
 
 ## Completed in this round
 
-- Researched recent public updates about Denis Gordeev, including GitHub repository activity and NLP industry trends.
-- Created AUTOWORK post: "LLM tooling updates for Russian-language NLP workflows" covering recent repository updates:
-  - **RU-SKILL** — LLM skill sets for Russian-language users
-  - **TG_SUMMARIZER** — Telegram summarization tool
-  - **MCP-RUSSIA** — MCP server configurations for Russian users
-  - **RUSSIA.MD** — AI-friendly knowledge base about Russia
-- Connected the practical tooling work to broader 2026 trends in LLM-powered structured information extraction (LangExtract, DocETL).
-- Linked the new post to earlier research work (NIED corpus published at JCDL 2025).
+- Researched Denis Gordeev's public contributions to Russian NLP evaluation benchmarks.
+- Created AUTOWORK post: "Denis Gordeev's contributions to Russian NLP evaluation benchmarks" covering:
+  - **rured2-nested-ner-sept2022** — Hugging Face dataset for Russian nested NER (RuNNE-2022, Dialogue 2022).
+  - **rurebus_paper** — LaTeX source for the RuREBus shared task paper (Dialogue 2020).
+  - **SIF** — Fork of PrincetonML's Smooth Inverse Frequency sentence embeddings.
+  - The RuREBus shared task: 3 tracks (NER, RE, end-to-end RE) for Russian business/government document extraction.
+- Connected this earlier benchmark work to current 2025-2026 trends in LLM-powered structured information extraction from scientific and industrial literature.
+- Referenced the Hugging Face "NLP Party" collection as an ongoing curation effort.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
