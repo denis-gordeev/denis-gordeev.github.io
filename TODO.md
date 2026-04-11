@@ -4,19 +4,17 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-10 (evening)
+Latest automation round: 2026-04-11
 
 ## Completed in this round
 
-- Researched Denis Gordeev's Hugging Face profile for models, datasets, and collections.
-- Created AUTOWORK post: "Denis Gordeev's Hugging Face models for Russian keyword extraction and text reranking" covering:
-  - **RU-KEYWORD-GENERATOR-RUT5**, **RU-TOPICS-GENERATOR-RUT5**, **RUT5-KEYPHRASE** — RuT5-based models for keyword and topic generation in Russian (updated Oct 2025).
-  - **GPB-REVIEWS-KEYWORDS-RU** and **GPB-REVIEWS-TOPICS-RU** — 51.7k-sample datasets for keyword and topic annotation.
-  - **RERANKER_DIALOG_ITEMS_CROSSENCODER_RUBERT-TINY-TURBO** — Cross-encoder reranker (Apr 2025).
-  - **RERANKER_DIALOG_ITEMS_BIENCODER_RUBERT-TINY-TURBO** (versions 3–7) — Bi-encoder sentence similarity models (Dec 2024).
-  - **Reasoning benchmarks** collection including VINOGROUND for video temporal reasoning.
-  - **NLP Party** collection of LLM papers.
-- Connected the two-stage retrieval architecture (bi-encoder + cross-encoder) to modern search system design.
+- Researched Denis Gordeev's research publications and academic profile.
+- Created AUTOWORK post: "Denis Gordeev's research publications — NIED corpus and nested text labeling" covering:
+  - **NIED corpus** published at JCDL 2025 — 3,926 annotated dataset descriptions with a two-tier labeling scheme for numeric information extraction.
+  - **SemEval-2021 Task 8** participation — measurement extraction from scientific text using transformer models.
+  - **Nested text labeling structures** paper under review at ICLR 2026 (co-authored with Adis Davletov, Alexey Rey, Galiya Akzhigitova, Georgiy Geymbukh) — addressing overlapping annotations in NLP pipelines.
+  - **Semantic field analysis** — comparative study of "deception" language across Russian and American online communities (RANEPA affiliation).
+  - Full research trajectory from semantic analysis through annotation infrastructure to LLM-era tooling.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
