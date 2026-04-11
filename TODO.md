@@ -4,17 +4,17 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-11
+Latest automation round: 2026-04-11 (second round)
 
 ## Completed in this round
 
-- Researched Denis Gordeev's research publications and academic profile.
-- Created AUTOWORK post: "Denis Gordeev's research publications — NIED corpus and nested text labeling" covering:
-  - **NIED corpus** published at JCDL 2025 — 3,926 annotated dataset descriptions with a two-tier labeling scheme for numeric information extraction.
-  - **SemEval-2021 Task 8** participation — measurement extraction from scientific text using transformer models.
-  - **Nested text labeling structures** paper under review at ICLR 2026 (co-authored with Adis Davletov, Alexey Rey, Galiya Akzhigitova, Georgiy Geymbukh) — addressing overlapping annotations in NLP pipelines.
-  - **Semantic field analysis** — comparative study of "deception" language across Russian and American online communities (RANEPA affiliation).
-  - Full research trajectory from semantic analysis through annotation infrastructure to LLM-era tooling.
+- Researched Denis Gordeev's professional trajectory via getprog.ai, Google Scholar, and LinkedIn profiles.
+- Created AUTOWORK post: "Denis Gordeev — from computational linguistics PhD to applied NLP at ecom.tech" covering:
+  - **Current role**: Senior Data Scientist at ecom.tech, applying NLP to e-commerce at scale.
+  - **PhD in Applied and Computational Linguistics** from Moscow State Linguistic University.
+  - **Career arc**: Software developer (Гринатом) → NLP Group Lead (RVSD) → NLP Team Lead (RANEPA) → ML Initiatives Lead (Anecdote) → Senior Data Scientist (ecom.tech).
+  - **Applied NLP at ecom.tech**: How his published models (rerankers, keyword/topic generators) align with product search, categorization, and review analysis use cases.
+  - **Open-source engagement**: GitHub activity, Stack Overflow contributions, Hugging Face model publishing.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
