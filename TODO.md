@@ -4,17 +4,19 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-11 (second round)
+Latest automation round: 2026-04-12 (third round)
 
 ## Completed in this round
 
-- Researched Denis Gordeev's professional trajectory via getprog.ai, Google Scholar, and LinkedIn profiles.
-- Created AUTOWORK post: "Denis Gordeev — from computational linguistics PhD to applied NLP at ecom.tech" covering:
-  - **Current role**: Senior Data Scientist at ecom.tech, applying NLP to e-commerce at scale.
-  - **PhD in Applied and Computational Linguistics** from Moscow State Linguistic University.
-  - **Career arc**: Software developer (Гринатом) → NLP Group Lead (RVSD) → NLP Team Lead (RANEPA) → ML Initiatives Lead (Anecdote) → Senior Data Scientist (ecom.tech).
-  - **Applied NLP at ecom.tech**: How his published models (rerankers, keyword/topic generators) align with product search, categorization, and review analysis use cases.
-  - **Open-source engagement**: GitHub activity, Stack Overflow contributions, Hugging Face model publishing.
+- Researched Denis Gordeev's recent GitHub activity and Hugging Face profile for new projects and developments.
+- Created AUTOWORK post: "Denis Gordeev builds MCP servers and LLM skills for Russian-language AI workflows" covering:
+  - **MCP-RUSSIA**: Localized Model Context Protocol servers for Russian-speaking users, exposing contextually relevant data sources and services.
+  - **RU-SKILL**: LLM skill definitions (structured prompt templates and tool workflows) tailored for Russian-language interactions.
+  - **RUSSIA.MD / RUSSIA-MD**: AI-friendly, markdown-formatted knowledge bases designed for Retrieval-Augmented Generation (RAG).
+  - **TG_SUMMARIZER**: Telegram chat summarization tool leveraging Denis's earlier keyword/topic generation models.
+  - **ROFI-MCP and MULTIMODAL-MCP-CLIENT**: Experimental integrations for voice-powered AI agentic workflows and desktop environment control.
+  - **MY-RU-COVERAGE**: Structured financial data with wikilink cross-referencing for Russia-listed companies.
+  - **Progression arc**: How Denis's work traces from annotation datasets → fine-tuned models → MCP servers and LLM agent infrastructure.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
@@ -26,3 +28,4 @@ Latest automation round: 2026-04-11 (second round)
 - Consider adding tags or categories only if the technical-note section grows enough that a two-part archive stops being sufficient.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs instead of skipping that step.
 - Monitor for updates on Denis Gordeev's Telegram channel (t.me/nlp_party) for NLP and text processing news to feature in future posts.
+- Watch for new repository activity on Denis's GitHub (e.g., updates to MCP-RUSSIA, RU-SKILL, or new LLM tooling projects).
