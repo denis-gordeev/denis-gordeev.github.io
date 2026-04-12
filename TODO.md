@@ -4,19 +4,16 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-12 (third round)
+Latest automation round: 2026-04-12 (fourth round)
 
 ## Completed in this round
 
-- Researched Denis Gordeev's recent GitHub activity and Hugging Face profile for new projects and developments.
-- Created AUTOWORK post: "Denis Gordeev builds MCP servers and LLM skills for Russian-language AI workflows" covering:
-  - **MCP-RUSSIA**: Localized Model Context Protocol servers for Russian-speaking users, exposing contextually relevant data sources and services.
-  - **RU-SKILL**: LLM skill definitions (structured prompt templates and tool workflows) tailored for Russian-language interactions.
-  - **RUSSIA.MD / RUSSIA-MD**: AI-friendly, markdown-formatted knowledge bases designed for Retrieval-Augmented Generation (RAG).
-  - **TG_SUMMARIZER**: Telegram chat summarization tool leveraging Denis's earlier keyword/topic generation models.
-  - **ROFI-MCP and MULTIMODAL-MCP-CLIENT**: Experimental integrations for voice-powered AI agentic workflows and desktop environment control.
-  - **MY-RU-COVERAGE**: Structured financial data with wikilink cross-referencing for Russia-listed companies.
-  - **Progression arc**: How Denis's work traces from annotation datasets → fine-tuned models → MCP servers and LLM agent infrastructure.
+- Researched Denis Gordeev's recent GitHub activity, Hugging Face profile, Google Scholar, and LinkedIn.
+- Created AUTOWORK post: "Denis Gordeev's local-first AI orchestrator and a decade of NLP research" covering:
+  - **AUTOWORK orchestrator**: Local-first tool for automating repository maintenance with AI agents, running on crontab schedules with Telegram notifications.
+  - **TG_SUMMARIZER**: Telegram channel message summarizer using OpenAI GPT, recently crossed 6 stars and 61 commits.
+  - **Google Scholar profile**: 195 total citations (127 since 2021), h-index 9, with top papers on aggression detection, BERT models, and Russian-language NLP datasets.
+  - **Research-to-practice trajectory**: How Denis's academic foundation (peer-reviewed papers on keyword extraction, topic generation, text reranking) grounds his practical tools in established NLP methodology.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
