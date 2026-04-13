@@ -4,17 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-13 (fifth round)
+Latest automation round: 2026-04-13 (sixth round)
 
 ## Completed in this round
 
-- Researched Denis Gordeev's recent GitHub activity, focusing on repositories updated in 2025-2026.
-- Discovered three key new repositories:
-  - **MCP-RUSSIA** (131 commits): Model Context Protocol server adapted for Russian public/government data sources, using FastMCP with package-by-feature architecture.
-  - **RU-SKILL** (96 commits): LLM skills collection being transitioned from Korean to Russian-language use cases.
-  - **MY-RU-COVERAGE** (77 commits): Equity research automation tool for MOEX-listed companies using wikilink-based knowledge graphs and yfinance integration.
-- Created AUTOWORK post: "Denis Gordeev's AI infrastructure push: MCP-RUSSIA, RU-SKILL, and equity research automation" covering the ecosystem of AI infrastructure being built for Russian markets.
-- Verified the site build completes successfully with `bundle exec jekyll build`.
+- Removed `_site/index.html` from git tracking — it is a generated build artifact that should not be committed.
+- Verified the site builds cleanly with `bundle exec jekyll build`.
+- Reviewed existing AUTOWORK posts (16 total, latest dated 2026-04-13) — no new post created today since one already exists (daily cap reached).
 
 ## Next actions
 
