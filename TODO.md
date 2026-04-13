@@ -4,16 +4,16 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-12 (fourth round)
+Latest automation round: 2026-04-13 (fifth round)
 
 ## Completed in this round
 
-- Researched Denis Gordeev's recent GitHub activity, Hugging Face profile, Google Scholar, and LinkedIn.
-- Created AUTOWORK post: "Denis Gordeev's local-first AI orchestrator and a decade of NLP research" covering:
-  - **AUTOWORK orchestrator**: Local-first tool for automating repository maintenance with AI agents, running on crontab schedules with Telegram notifications.
-  - **TG_SUMMARIZER**: Telegram channel message summarizer using OpenAI GPT, recently crossed 6 stars and 61 commits.
-  - **Google Scholar profile**: 195 total citations (127 since 2021), h-index 9, with top papers on aggression detection, BERT models, and Russian-language NLP datasets.
-  - **Research-to-practice trajectory**: How Denis's academic foundation (peer-reviewed papers on keyword extraction, topic generation, text reranking) grounds his practical tools in established NLP methodology.
+- Researched Denis Gordeev's recent GitHub activity, focusing on repositories updated in 2025-2026.
+- Discovered three key new repositories:
+  - **MCP-RUSSIA** (131 commits): Model Context Protocol server adapted for Russian public/government data sources, using FastMCP with package-by-feature architecture.
+  - **RU-SKILL** (96 commits): LLM skills collection being transitioned from Korean to Russian-language use cases.
+  - **MY-RU-COVERAGE** (77 commits): Equity research automation tool for MOEX-listed companies using wikilink-based knowledge graphs and yfinance integration.
+- Created AUTOWORK post: "Denis Gordeev's AI infrastructure push: MCP-RUSSIA, RU-SKILL, and equity research automation" covering the ecosystem of AI infrastructure being built for Russian markets.
 - Verified the site build completes successfully with `bundle exec jekyll build`.
 
 ## Next actions
