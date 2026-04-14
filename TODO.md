@@ -4,13 +4,15 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-13 (sixth round)
+Latest automation round: 2026-04-14 (seventh round)
 
 ## Completed in this round
 
-- Removed `_site/index.html` from git tracking — it is a generated build artifact that should not be committed.
+- Created new AUTOWORK post: **"Denis Gordeev and the LIORI team at SemEval: a systematic push into multilingual NLP competitions"** (dated 2026-04-14).
+  - Covers five SemEval shared task submissions (2020–2021): emphasis selection, definition extraction, financial causality, word-in-context disambiguation, and table-to-text generation.
+  - Traces the research trajectory from competition submissions to production tooling (RUSSIA.MD, MY-RU-COVERAGE, TG_SUMMARIZER, AUTOWORK).
 - Verified the site builds cleanly with `bundle exec jekyll build`.
-- Reviewed existing AUTOWORK posts (16 total, latest dated 2026-04-13) — no new post created today since one already exists (daily cap reached).
+- Committed and pushed to `master`.
 
 ## Next actions
 
@@ -22,3 +24,4 @@ Latest automation round: 2026-04-13 (sixth round)
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs instead of skipping that step.
 - Monitor for updates on Denis Gordeev's Telegram channel (t.me/nlp_party) for NLP and text processing news to feature in future posts.
 - Watch for new repository activity on Denis's GitHub (e.g., updates to MCP-RUSSIA, RU-SKILL, or new LLM tooling projects).
+- Explore Denis's GitHub repositories that haven't been featured yet (e.g., `rurebus_paper`, `rured2`, `trac2`, `SIF`) for potential future post material.
