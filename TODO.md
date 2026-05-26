@@ -4,15 +4,15 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-04-14 (eighth round)
+Latest automation round: 2026-05-26 (ninth round)
 
 ## Completed in this round
 
-- Created new AUTOWORK post: **"Denis Gordeev on automatic meme generation with autoregressive transformers"** (dated 2026-04-14).
-  - Covers the 2022 publication co-authored with V. Potapov on automatic meme generation.
-  - Explores the multimodal AI challenge: combining visual understanding with culturally relevant text generation.
-  - Connects meme generation work to broader research trajectory (SemEval, toxicity detection, MCP-RUSSIA, TG_SUMMARIZER).
-  - Highlights the significance for Russian-language multimodal NLP.
+- Created new AUTOWORK post: **"AUTOWORK - Denis Gordeev builds a local-first repo orchestrator and English-language Codex console fork"** (dated 2026-05-26).
+  - Covers the new **autowork** repository — a local-first orchestrator for managing portfolios of git repositories with cron scheduling, Telegram integration, and per-repo living task lists.
+  - Covers **codex-console-english** — Denis's fork translating and fixing a Chinese OpenAI Codex registration console, with proper upstream attribution.
+  - Updates on My-RU-Coverage growth (now 83 commits, 42 Russian reports, 31 themes) and ongoing maintenance of russia-md and ru-skill.
+  - Notes the connection between autowork and Denis's broader trajectory from datasets → models → AI infrastructure → automation tooling.
 - Verified the site builds cleanly with `bundle exec jekyll build`.
 
 ## Next actions
@@ -25,5 +25,6 @@ Latest automation round: 2026-04-14 (eighth round)
 - Consider adding tags or categories only if the technical-note section grows enough that a two-part archive stops being sufficient.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs instead of skipping that step.
 - Monitor for updates on Denis Gordeev's Telegram channel (t.me/nlp_party) for NLP and text processing news to feature in future posts.
-- Watch for new repository activity on Denis's GitHub (e.g., MoreTech 2025, contract_parser, or new LLM tooling projects).
+- Watch for new commits on autowork, codex-console-english, and My-RU-Coverage for follow-up posts.
 - Explore potential post on aggression/cyberbullying detection research (2016 work, highly cited at 38+ citations).
+- Consider a deeper post on the autowork orchestrator's architecture if it gains significant new features.
