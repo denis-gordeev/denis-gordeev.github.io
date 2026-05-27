@@ -4,15 +4,14 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-05-26 (ninth round)
+Latest automation round: 2026-05-27 (tenth round)
 
 ## Completed in this round
 
-- Created new AUTOWORK post: **"AUTOWORK - Denis Gordeev builds a local-first repo orchestrator and English-language Codex console fork"** (dated 2026-05-26).
-  - Covers the new **autowork** repository — a local-first orchestrator for managing portfolios of git repositories with cron scheduling, Telegram integration, and per-repo living task lists.
-  - Covers **codex-console-english** — Denis's fork translating and fixing a Chinese OpenAI Codex registration console, with proper upstream attribution.
-  - Updates on My-RU-Coverage growth (now 83 commits, 42 Russian reports, 31 themes) and ongoing maintenance of russia-md and ru-skill.
-  - Notes the connection between autowork and Denis's broader trajectory from datasets → models → AI infrastructure → automation tooling.
+- Created new AUTOWORK post: **"AUTOWORK - autowork gains observability, mcp-russia reaches 13 modules with full test coverage"** (dated 2026-05-27).
+  - Covers **autowork** observability improvements: persisted Telegram sync summary (`State.last_telegram_sync`), `review --json` for machine-readable output, guaranteed env keys in `doctor`, shell template base commands (`$PROMPT`), drift remediation hints, and failure-path regression tests.
+  - Covers **mcp-russia** milestone: 13 Russian modules with full test coverage (1,815 tests passing). New Roskomnadzor and Rospotrebnadzor modules, server meta-tools translated to Russian, FastMCP 3.x bug fixes.
+  - Covers **codex-console-english** ASCII cleanup: zero-width spaces and Unicode arrow replaced with ASCII equivalents, 29 tests still passing.
 - Verified the site builds cleanly with `bundle exec jekyll build`.
 
 ## Next actions
@@ -25,6 +24,7 @@ Latest automation round: 2026-05-26 (ninth round)
 - Consider adding tags or categories only if the technical-note section grows enough that a two-part archive stops being sufficient.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs instead of skipping that step.
 - Monitor for updates on Denis Gordeev's Telegram channel (t.me/nlp_party) for NLP and text processing news to feature in future posts.
-- Watch for new commits on autowork, codex-console-english, and My-RU-Coverage for follow-up posts.
+- Watch for new commits on autowork, mcp-russia, codex-console-english, and My-RU-Coverage for follow-up posts.
 - Explore potential post on aggression/cyberbullying detection research (2016 work, highly cited at 38+ citations).
 - Consider a deeper post on the autowork orchestrator's architecture if it gains significant new features.
+- Consider a post on mcp-russia's real API integration progress once stubs are replaced with working endpoints.
