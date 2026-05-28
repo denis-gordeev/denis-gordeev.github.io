@@ -4,14 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-05-27 (tenth round)
+Latest automation round: 2026-05-28 (eleventh round)
 
 ## Completed in this round
 
-- Created new AUTOWORK post: **"AUTOWORK - autowork gains observability, mcp-russia reaches 13 modules with full test coverage"** (dated 2026-05-27).
-  - Covers **autowork** observability improvements: persisted Telegram sync summary (`State.last_telegram_sync`), `review --json` for machine-readable output, guaranteed env keys in `doctor`, shell template base commands (`$PROMPT`), drift remediation hints, and failure-path regression tests.
-  - Covers **mcp-russia** milestone: 13 Russian modules with full test coverage (1,815 tests passing). New Roskomnadzor and Rospotrebnadzor modules, server meta-tools translated to Russian, FastMCP 3.x bug fixes.
-  - Covers **codex-console-english** ASCII cleanup: zero-width spaces and Unicode arrow replaced with ASCII equivalents, 29 tests still passing.
+- Created new AUTOWORK post: **"AUTOWORK - autowork gains self-healing doctor and sync history, mcp-russia reaches 16 modules"** (dated 2026-05-28).
+  - Covers **autowork** self-healing: `doctor --self-heal` regenerates drifted wrappers, `State.telegram_sync_history` ring buffer (last 10 summaries), per-project dispatch outcomes in `review`, collision-aware cron scheduling, root wrapper drift fix, 5 new regression tests.
+  - Covers **mcp-russia** expansion to 16 modules: new FNS (Tax Service), Rosreestr (Registry/Cadastre), FSSP (Bailiff Service) modules; Portuguese-to-Russian function name migration across 7 existing modules (cbrf, gosduma, publikatsii, rosaudit, rosgidromet, rosstat, rosvodresursy).
 - Verified the site builds cleanly with `bundle exec jekyll build`.
 
 ## Next actions
@@ -24,7 +23,7 @@ Latest automation round: 2026-05-27 (tenth round)
 - Consider adding tags or categories only if the technical-note section grows enough that a two-part archive stops being sufficient.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs instead of skipping that step.
 - Monitor for updates on Denis Gordeev's Telegram channel (t.me/nlp_party) for NLP and text processing news to feature in future posts.
-- Watch for new commits on autowork, mcp-russia, codex-console-english, and My-RU-Coverage for follow-up posts.
+- Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, and My-RU-Coverage for follow-up posts.
 - Explore potential post on aggression/cyberbullying detection research (2016 work, highly cited at 38+ citations).
-- Consider a deeper post on the autowork orchestrator's architecture if it gains significant new features.
 - Consider a post on mcp-russia's real API integration progress once stubs are replaced with working endpoints.
+- Consider a post on the Portuguese-to-Russian migration pattern as a case study in codebase localization.
