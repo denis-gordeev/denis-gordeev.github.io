@@ -4,38 +4,34 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-05-29 (thirteenth round)
+Latest automation round: 2026-05-29 (fourteenth round)
 
 ## Completed in this round
 
-- Wrote 2026-05-29 blog post covering autowork per-project healing, mcp-russia second migration wave (18 modules, 1896 tests), My-RU-Coverage Russian-only pipeline, and codex-console-english rounds 16–17.
-- Reviewed all public repos for new activity since 2026-05-28.
+- Reviewed all public repos for new activity since the thirteenth round's blog post.
+- Found significant new May-29 commits across autowork, mcp-russia, My-RU-Coverage, codex-console-english, and russia-md — but a blog post already exists for 2026-05-29, so deferring to the next day per the once-per-day rule.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-05-28, post-previous-blog-post)
+## Repo activity summary (2026-05-29, post-previous-blog-post)
 
 ### autowork (3 commits)
-- `run --self-heal` — regenerates drifted controller and managed wrappers before syncing projects.
-- `telegram-sync --json --self-heal` — per-project healing visibility in JSON output, with `controller_healed`, `drifted_paths`, and `healed_paths` in `wrapper_contracts` payload.
-- `history --until` — upper-bound timestamp filtering, complementing `--since` for range queries.
-- Per-project granular healing/drift mappings (`per_project_healed`, `per_project_drifted`) in all JSON output surfaces.
+- `project-run --format json` — new `ProjectRunResult` dataclass with regression tests, extending structured JSON output to the project-run subcommand.
+- `project-run --self-heal` — wrapper contract healing now works at the individual project level, with regression tests.
+- Fix controller-wrapper drift bug, normalize JSON output, simplify `sync_projects`.
 
 ### mcp-russia (2 commits)
-- **GIBDD/MVD module** (ГИБДД/МВД): 12 tools, 3 resources, 2 prompts.
-- **Minobrnauki module** (Минобрнауки): 12 tools, 3 resources, 2 prompts.
-- `format_number_br` → `format_number_ru` migration across 90+ call sites.
-- **Second migration wave**: `format_brl` → `format_rub`, `parse_brl_number` → `parse_rub_number`, Portuguese infrastructure names → Russian, server MCP tools renamed (`listar_features` → `spisok_funktsiy`, etc.), `McpBrasilError` → `McpRussiaError`.
-- **Total modules now: 18**, 1,896 tests passing, ruff clean.
+- **Complete `mcp_brasil` → `mcp_russia` package rename**: all backward-compat shims (`mcp_brasil` aliases, deprecated imports) removed. This is the final step of the migration that began in earlier rounds — the `mcp_brasil` name no longer exists anywhere in the codebase.
+- docs: align `mcp_russia` and `agenty` references.
 
 ### My-RU-Coverage (2 commits)
-- Removed legacy Taiwan scripts and batch workflow (−1,309 lines, +80 lines) — full Russian-only pipeline.
-- Purged Chinese regex from `update_enrichment`, translated English remnants in scripts, deprecated legacy generators.
+- **Financial label localization**: НИОКР, за 12 мес., Прогнозный P/E; bug fix N/A→Н/Д; FMCG→ТНП, CAD→САПР, IoT→интернет вещей; Russian glosses for SLA/ERP/EPC/POS/SaaS/IaaS/DDoS.
+- **English jargon replacement in reports**: 30 English terms across 13 report files (proximity→у дома, private label→СТМ, e-grocery→продуктовый онлайн-ритейл, fashion→одежда и обувь, e-commerce→электронная коммерция, etc.). Unified N/A→Н/Д, Unknown→Не определено. Translated comments and section headers to Russian. 42/42 reports pass quality check.
 
 ### codex-console-english (2 commits)
-- Rounds 16 and 17 of English translation verification — no non-English text found, all 29 tests pass.
+- Rounds 18 and 19 of English translation verification — no non-English text found, all 29 tests pass.
 
 ### russia-md (1 commit)
-- Upstream review pass — checked for new fixes from taiwan-md upstream; none applicable.
+- Sync selective upstream category mapping hardening.
 
 ## Telegram channel (t.me/nlp_party)
 - Last post: April 27, 2026 (FastML "Intern Courier Partner").
@@ -43,6 +39,7 @@ Latest automation round: 2026-05-29 (thirteenth round)
 
 ## Next actions
 
+- Write a 2026-05-30 blog post covering the May-29 commits (autowork project-run JSON + self-heal + drift fix, mcp-russia complete package rename, My-RU-Coverage financial label localization and jargon replacement, codex-console-english rounds 18–19, russia-md upstream sync).
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
