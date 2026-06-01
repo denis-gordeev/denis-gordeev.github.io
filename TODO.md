@@ -4,54 +4,30 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-05-30 (fifteenth round)
+Latest automation round: 2026-06-01 (sixteenth round)
 
 ## Completed in this round
 
-- Reviewed all public repos for new activity since the fourteenth round's blog post (May 29).
-- Created 2026-05-30 blog post covering: birdclef_2026 group-temperature F1 gains + negative results, open-divine-divinity-rust-bevy RPG systems (dialog rewards, weather, status effects), tg_summarizer dedup/deadlock fixes, ru-skill legacy doc coverage, My-RU-Coverage continued localization, codex-console-english round 20.
-- Verified Jekyll build succeeds.
+- Reviewed all public repos for new activity since the fifteenth round's blog post (May 30).
+- Created 2026-06-01 blog post covering: mcp-russia docs/examples russification (2 commits), russia-md validator error limits + upstream SEO/contributor syncs (3 commits), My-RU-Coverage Anglicism annotations (1 commit), codex-console-english round 21 (1 commit).
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-05-29 to 2026-05-30, post-previous-blog-post)
+## Repo activity summary (2026-05-30 to 2026-06-01, post-previous-blog-post)
 
-### birdclef_2026 (7 commits)
-- **022 group-specific temperatures**: +0.062 MicroF1 over uniform T=5 (Aves T=10–20, Insecta/Amphibia T=1–2, Reptilia T=1). LOO CV confirms +0.060. Integrated into baseline.
-- **020 zero-shot**: deprioritized — 28 missing species are non-Aves, Perch can't detect.
-- **021 soundscape-only**: Perch adds zero signal for insect sonotypes.
-- **023 postproc v3**: negative — grouped T ≈ T=4, no improvement.
-- **024 insect spectral**: negative — worse than Perch.
-- **009 temporal (GRU/TCN)**: negative — overfits on 59 files, AUC drops.
-- **025 window aggregation**: max already optimal, no further gain.
+### mcp-russia (2 commits)
+- **Brazilian tool IDs → Russian in docs/examples/** (510 changes): bacen→cbrf, ibge→rosstat, duma→gosduma, cik→cekrf, datajud→kad_arbitrazh, saude→minzdrav, transparencia→zakupki across four example personas. Fixed CI/CD workflows (removed non-existent src/mcp_brasil/ from mypy).
+- **Russification of CONTRIBUTING.md, diagrams, docs** (298 changes): Portuguese code examples → Russian, generate_diagrams.py fully translated, docs navigation (Быстрый старт, Умные инструменты), fixed broken tool identifiers in examples, CHANGELOG cleanup.
 
-### open-divine-divinity-rust-bevy (2 commits)
-- Audio system (34 sounds, 6 categories), NPC day/night schedules, item comparison, area transitions, rest mechanic. 26 new tests (161 total).
-- Dialog rewards (XP/gold/items), weather system (Rain/Snow/Fog with intensity), status effects (Poison/Freeze/Bleed/Weaken). 44 new tests (205 total).
+### russia-md (3 commits)
+- **Markdown validator ergonomics** (133 changes): `--markdown-error-limit` CLI flag, `SKILL_VALIDATOR_MAX_MARKDOWN_ERRORS` env var, errors grouped by source file before truncation, 3 new test cases.
+- **Upstream SEO schema fixes** (84 changes): enhanced SEO.astro with structured data markup.
+- **Contributor hardening + deploy** (66 changes): non-GitHub contributor support (static chips), profile URL validation, deploy workflow → ubuntu-latest.
 
-### tg_summarizer (2 commits)
-- Critical dedup bug fix for Russian responses, max_tokens 16K→4K, truncated update match context.
-- Lambda deadlock fix (same-event-loop), SSM Parameter Store support, code dedup, Lambda 1024MB. 6 new tests (61 total).
+### My-RU-Coverage (1 commit)
+- **Anglicism annotations** (102 changes): Russian explanations at first mention for финтех/провайдеры/эквайринг/колокация/ритейл/девелопер/клиринг across 13 reports, utils.py typo fix.
 
-### ru-skill (2 commits)
-- Fixed legacy-as-operational-default copy, expanded doc-regression for legacy skills.
-- Added workflow/content assertions for remaining legacy skills (kakaotalk-mac, daiso-product-search, delivery-tracking). Full coverage: all 13 target + all legacy skills.
-
-### My-RU-Coverage (3 commits on May 29, 1 on May 30)
-- May 29: English jargon replacement in reports, financial label localization (НИОКР, за 12 мес., Прогнозный P/E), N/A→Н/Д fix, FMCG→ТНП/CAD→САПР/IoT→интернет вещей, Russian glosses for SLA/ERP/EPC/POS/SaaS/IaaS/DDoS.
-- May 30: викалинк→викилинк typo fix, Russian explanations for IPO/B2B/B2C/BaaS/DRaaS, replaced англоязычные термины (мерчанты→продавцы, селлеры→продавцы, фулфилмент→комплектация заказов, вендоры→производители, трейдинг→торговля, антифрод/комплаенс/скоринг), русификация комментариев и профилей в скриптах. 31 files changed.
-
-### mcp-russia (3 commits on May 29)
-- Complete `mcp_brasil` → `mcp_russia` package rename: all backward-compat shims removed.
-- Documentation cleanup: зачистка устаревших ссылок на mcp_brasil и MCP_BRASIL_*.
-- Docs: align mcp_russia and agenty references.
-
-### repo-autowork / autowork (3 commits on May 29)
-- `project-run --format json` — new `ProjectRunResult` dataclass with regression tests.
-- `project-run --self-heal` — wrapper contract healing at individual project level, with regression tests.
-- Fix controller-wrapper drift bug, normalize JSON output, simplify `sync_projects`.
-
-### codex-console-english (3 commits)
-- Rounds 18 and 19 on May 29, round 20 on May 30: translation scan complete, all 29 tests pass.
+### codex-console-english (1 commit)
+- Round 21: translation scan complete, all 29 tests pass.
 
 ## Telegram channel (t.me/nlp_party)
 - Recent posts are reposts from ecom.tech (Вау-поиск / Wow-search for Samokat) and FastML (Intern Courier Partner).
@@ -59,7 +35,7 @@ Latest automation round: 2026-05-30 (fifteenth round)
 
 ## Next actions
 
-- Write a 2026-05-31 blog post if meaningful new activity appears (once-per-day rule).
+- Write the next blog post if meaningful new activity appears (once-per-day rule).
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
