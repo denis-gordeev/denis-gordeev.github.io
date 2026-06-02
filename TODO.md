@@ -4,53 +4,49 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-02 (seventeenth round)
+Latest automation round: 2026-06-02 (eighteenth round)
 
 ## Completed in this round
 
-- Reviewed all public repos for new activity since the sixteenth round's blog post (June 1, 20:28).
-- Created 2026-06-02 blog post covering: birdclef_2026 pseudo-labeling & ensemble stacking + label fix (7 commits), open-divine-divinity-rust-bevy area transitions & audio playback (2 commits), tg_summarizer S3/history caching + async fix (2 commits), ru-skill heading normalization to Russian (4 commits), mcp-russia real API connections (1 commit), My-RU-Coverage застройщик + MOEX indexes (1 commit), codex-console-english round 22 (1 commit).
+- Reviewed all public repos for new activity since the seventeenth round's blog post (June 2, 07:27 UTC).
+- No new blog post created: once-per-day rule (June 2 post already exists).
+- Noted 5 repos with post-blog activity for the next round's post.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-06-01 post-blog to 2026-06-02)
+## Repo activity summary (post-blog 2026-06-02 to now)
 
-### birdclef_2026 (7 commits)
-- **026 pseudo-labeling v2 + 027 OOF analysis**: LOO fusion hurts on oof_base; simple averaging outperforms.
-- **029 pseudo-labeling v3** (1,026 lines) + **030 ensemble stacking** (868 lines): per-sample R2 loss, multi-checkpoint stacking.
-- **Soundscape label construction bug fix**: misaligned training targets in 029/030.
-- **Focal padding bug fix + syntax fixes**: np.float32 typo, double parenthesis, unnecessary label mapping.
-- **029 timed out on Kaggle** (9h): need split approach for embedding cache.
+### wow_constructed_languages (new repo, 2 commits)
 
-### open-divine-divinity-rust-bevy (2 commits)
-- **Actual audio playback** (985 additions): new audio_playback.rs with procedural placeholder fallback.
-- **Full area transitions** (815 additions): Catacombs, Castle Stormfist, Rivertown with zone definitions, spawn points, transition markers, save/load persistence.
-
-### tg_summarizer (2 commits)
-- **AsyncOpenAI event loop fix**: resolved Lambda deadlock from nested event loop calls.
-- **S3 client caching, history caching, deadline during iteration, None-safe text** (303 changes): major performance and robustness improvements.
-- **SSM client caching, message_id preservation, coverage check dedup** (225 changes).
-
-### ru-skill (4 commits)
-- **Canonical heading normalization** (381 changes across 48 files): all headings to consistent Russian scheme, Chinese character artifacts eliminated.
-- **Setup and zoon skill normalization**: k-skill-setup/SKILL.md and packages/zoon-nearby/SKILL.md cleaned.
-- **English headings → Russian**, last Korean doc fragments translated.
-- **TODO governance tightened**.
+- **New repository** created at 2026-06-02T15:17:55Z (HTML language).
+- **Initial commit** (14:56): Grammars and descriptions for 11 WoW constructed languages — Darnassian, Thalassian, Draenei, Orcish, Zandali, Taur-ahe, Dwarven, Shath'Yar, Kalimag, Shalassian, Gutterspeak. Each folder has vocabulary.md, grammar.md, description.md.
+- **Expansion commit** (15:14): IPA transcriptions, comparative elven linguistics (Proto-Elven reconstruction, sound correspondences), example sentences (non-canon), 3 new languages (Pandaren, Vulpera, Eredun/Demonic). README and TODO updated.
 
 ### mcp-russia (1 commit)
-- **Real API connections** (872 additions, 240 deletions): Open-Meteo weather API (rosgidromet), EGRUL legal entity registry (fns), Portuguese example filenames → Russian.
 
-### My-RU-Coverage (1 commit)
-- **девелопер → застройщик** in 4 reports, unified METRIC_LABELS dict, 7 MOEX sector indexes added.
+- **Госдума and Закупки real APIs** (07:54): api.duma.gov.ru (депутаты, законопроекты, голосования) with DUMA_API_TOKEN, zakupki.gov.ru (поиск закупок, контракты, планы) with cross-module ФНС integration. 5 modules now have real APIs: ЦБ РФ, Росгидромет, ФНС, Госдума, Закупки. CHANGELOG Portuguese cleanup.
 
-### codex-console-english (1 commit)
-- Round 22: translation scan complete, all 29 tests pass.
+### ru-skill (3 commits on feat/mchs-storm-warnings)
+
+- **English → Russian translation** (08:04): Boundary note → Граничное примечание in 31 files, 9 SKILL.md h1 headings, 10 package READMEs, 8 frontmatter descriptions. Heading normalization (Что умеет → Что делает навык, etc.). Doc-regression test updated for round 31.
+- **Legacy boundary copy russification** (12:11): docs: russify legacy boundary copy surfaces.
+- **Transition copy and metadata alignment** (12:28): docs: align transition copy and package metadata.
+
+### tg_summarizer (1 commit on autowork/2026-04-08-lambda-hardening)
+
+- **Cache invalidation bugs, code dedup** (08:05): text_hash → utils extraction, defensive SummaryInfo, cost optimization fixes.
+
+### russia-md (1 commit)
+
+- **Upstream review** (12:17): Review upstream/main at 7d2b0fef9 — no additional applicable fixes.
 
 ## Telegram channel (t.me/nlp_party)
+
 - No new original posts by Denis Gordeev since April 27, 2026.
+- Recent forwarded posts are from ecom.tech about Samokat "Вау-поиск" and FastML (courier partner internship story).
 
 ## Next actions
 
-- Write the next blog post if meaningful new activity appears (once-per-day rule).
+- **Write the June 3 blog post** covering: wow_constructed_languages (new repo), mcp-russia Госдума/Закупки APIs (5 real API modules), ru-skill English→Russian translation (3 commits), tg_summarizer cache fixes, russia-md upstream review.
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
@@ -58,7 +54,8 @@ Latest automation round: 2026-06-02 (seventeenth round)
 - Consider adding tags or categories only if the archive grows enough.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
-- Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, birdclef_2026, open-divine-divinity-rust-bevy, tg_summarizer, ru-skill for follow-up posts.
+- Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, birdclef_2026, open-divine-divinity-rust-bevy, tg_summarizer, ru-skill, **wow_constructed_languages** for follow-up posts.
 - Track birdclef_2026 embedding cache split approach to resolve the Kaggle timeout.
-- Track mcp-russia's continued real API integration as more stubs get replaced.
-- Track ru-skill heading normalization completion.
+- Track mcp-russia's continued real API integration (5 of ~20 modules connected).
+- Track ru-skill heading normalization completion (round 31 in progress on feat/mchs-storm-warnings).
+- Track wow_constructed_languages expansion (14 languages, IPA, comparative linguistics so far).
