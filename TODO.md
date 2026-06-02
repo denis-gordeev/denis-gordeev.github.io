@@ -4,34 +4,49 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-01 (sixteenth round)
+Latest automation round: 2026-06-02 (seventeenth round)
 
 ## Completed in this round
 
-- Reviewed all public repos for new activity since the fifteenth round's blog post (May 30).
-- Created 2026-06-01 blog post covering: mcp-russia docs/examples russification (2 commits), russia-md validator error limits + upstream SEO/contributor syncs (3 commits), My-RU-Coverage Anglicism annotations (1 commit), codex-console-english round 21 (1 commit).
+- Reviewed all public repos for new activity since the sixteenth round's blog post (June 1, 20:28).
+- Created 2026-06-02 blog post covering: birdclef_2026 pseudo-labeling & ensemble stacking + label fix (7 commits), open-divine-divinity-rust-bevy area transitions & audio playback (2 commits), tg_summarizer S3/history caching + async fix (2 commits), ru-skill heading normalization to Russian (4 commits), mcp-russia real API connections (1 commit), My-RU-Coverage застройщик + MOEX indexes (1 commit), codex-console-english round 22 (1 commit).
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-05-30 to 2026-06-01, post-previous-blog-post)
+## Repo activity summary (2026-06-01 post-blog to 2026-06-02)
 
-### mcp-russia (2 commits)
-- **Brazilian tool IDs → Russian in docs/examples/** (510 changes): bacen→cbrf, ibge→rosstat, duma→gosduma, cik→cekrf, datajud→kad_arbitrazh, saude→minzdrav, transparencia→zakupki across four example personas. Fixed CI/CD workflows (removed non-existent src/mcp_brasil/ from mypy).
-- **Russification of CONTRIBUTING.md, diagrams, docs** (298 changes): Portuguese code examples → Russian, generate_diagrams.py fully translated, docs navigation (Быстрый старт, Умные инструменты), fixed broken tool identifiers in examples, CHANGELOG cleanup.
+### birdclef_2026 (7 commits)
+- **026 pseudo-labeling v2 + 027 OOF analysis**: LOO fusion hurts on oof_base; simple averaging outperforms.
+- **029 pseudo-labeling v3** (1,026 lines) + **030 ensemble stacking** (868 lines): per-sample R2 loss, multi-checkpoint stacking.
+- **Soundscape label construction bug fix**: misaligned training targets in 029/030.
+- **Focal padding bug fix + syntax fixes**: np.float32 typo, double parenthesis, unnecessary label mapping.
+- **029 timed out on Kaggle** (9h): need split approach for embedding cache.
 
-### russia-md (3 commits)
-- **Markdown validator ergonomics** (133 changes): `--markdown-error-limit` CLI flag, `SKILL_VALIDATOR_MAX_MARKDOWN_ERRORS` env var, errors grouped by source file before truncation, 3 new test cases.
-- **Upstream SEO schema fixes** (84 changes): enhanced SEO.astro with structured data markup.
-- **Contributor hardening + deploy** (66 changes): non-GitHub contributor support (static chips), profile URL validation, deploy workflow → ubuntu-latest.
+### open-divine-divinity-rust-bevy (2 commits)
+- **Actual audio playback** (985 additions): new audio_playback.rs with procedural placeholder fallback.
+- **Full area transitions** (815 additions): Catacombs, Castle Stormfist, Rivertown with zone definitions, spawn points, transition markers, save/load persistence.
+
+### tg_summarizer (2 commits)
+- **AsyncOpenAI event loop fix**: resolved Lambda deadlock from nested event loop calls.
+- **S3 client caching, history caching, deadline during iteration, None-safe text** (303 changes): major performance and robustness improvements.
+- **SSM client caching, message_id preservation, coverage check dedup** (225 changes).
+
+### ru-skill (4 commits)
+- **Canonical heading normalization** (381 changes across 48 files): all headings to consistent Russian scheme, Chinese character artifacts eliminated.
+- **Setup and zoon skill normalization**: k-skill-setup/SKILL.md and packages/zoon-nearby/SKILL.md cleaned.
+- **English headings → Russian**, last Korean doc fragments translated.
+- **TODO governance tightened**.
+
+### mcp-russia (1 commit)
+- **Real API connections** (872 additions, 240 deletions): Open-Meteo weather API (rosgidromet), EGRUL legal entity registry (fns), Portuguese example filenames → Russian.
 
 ### My-RU-Coverage (1 commit)
-- **Anglicism annotations** (102 changes): Russian explanations at first mention for финтех/провайдеры/эквайринг/колокация/ритейл/девелопер/клиринг across 13 reports, utils.py typo fix.
+- **девелопер → застройщик** in 4 reports, unified METRIC_LABELS dict, 7 MOEX sector indexes added.
 
 ### codex-console-english (1 commit)
-- Round 21: translation scan complete, all 29 tests pass.
+- Round 22: translation scan complete, all 29 tests pass.
 
 ## Telegram channel (t.me/nlp_party)
-- Recent posts are reposts from ecom.tech (Вау-поиск / Wow-search for Samokat) and FastML (Intern Courier Partner).
-- No original posts by Denis Gordeev since April 27, 2026.
+- No new original posts by Denis Gordeev since April 27, 2026.
 
 ## Next actions
 
@@ -44,5 +59,6 @@ Latest automation round: 2026-06-01 (sixteenth round)
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
 - Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, birdclef_2026, open-divine-divinity-rust-bevy, tg_summarizer, ru-skill for follow-up posts.
-- Consider a post on mcp-russia's real API integration progress once stubs are replaced with working endpoints.
-- Consider a post on birdclef_2026 competition progress as the deadline approaches.
+- Track birdclef_2026 embedding cache split approach to resolve the Kaggle timeout.
+- Track mcp-russia's continued real API integration as more stubs get replaced.
+- Track ru-skill heading normalization completion.
