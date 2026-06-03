@@ -4,60 +4,58 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-03 (nineteenth round)
+Latest automation round: 2026-06-03 (twentieth round)
 
 ## Completed in this round
 
-- Reviewed all public repos for new activity since the eighteenth round's blog post (June 2, ~17:27 UTC).
-- Created June 3 blog post covering: wow_constructed_languages (new repo, 17 conlangs with IPA and comparative linguistics), mcp-russia (Госдума/Закупки/КАД APIs, 7 real API modules), tg_summarizer (timeout and truncation hardening), ru-skill (continued russification on feat/mchs-storm-warnings), My-RU-Coverage (legacy term cleanup, MOEX tickers), codex-console-english (rounds 23–24), russia-md (upstream review).
-- Updated TODO.md with current round status.
+- Reviewed all monitored repos for new activity since the nineteenth round's blog post (2026-06-03, ~17:27 UTC).
+- No new blog post created: the once-per-day rule applies (a post was already published on June 3).
+- Updated TODO.md with current round status and queued new activity for the next post.
 
-## Repo activity summary (post-blog 2026-06-02 to 2026-06-03)
+## Repo activity summary (post-blog 2026-06-03)
 
-### wow_constructed_languages (3 commits)
+### wow_constructed_languages (3 new commits)
 
-- **Initial commit** (14:56): Grammars and descriptions for 11 WoW constructed languages.
-- **Expansion** (15:14): IPA transcriptions, comparative elven linguistics (Proto-Elven reconstruction), example sentences (non-canon), 3 new languages (Pandaren, Vulpera, Eredun/Demonic).
-- **Further expansion** (18:05): IPA/HTML vocab for 7 more languages, Draenei/Eredun comparative, 3 more languages (Mogu, Sethrak, Nature/Druidic), expanded vocabularies with BfA/Legion/WoD content.
+- **Titan, Vrykul, Nazja languages** (11:18 UTC+3): Added Titan, Vrykul, and Nazja languages; HTML vocab for Shalassian/Mogu/Sethrak/Nature; expanded Mogu with MoP clans; cross-referenced Dwarven-Titan and Sethrak-Zandali; added Taur-ahe/Dwarven example sentences.
+- **Titan-forged family comparison** (14:16 UTC+3): Titan/Vrykul HTML vocab, Nazja added to elven comparative, Titan-forged family comparison, Tol'vir and Drust languages.
+- **Drust vocabulary and cross-language table** (18:04 UTC+3): Drust HTML vocabulary, cross-reference Drust/Vrykul and Tol'vir/Titan/Mogu in titan-forged comparative, comprehensive cross-language comparison table.
 
-### mcp-russia (2 commits)
+### mcp-russia (1 new commit)
 
-- **Госдума and Закупки APIs** (07:54): api.duma.gov.ru and zakupki.gov.ru with cross-module ФНС integration.
-- **КАД API and russification** (17:46): kad.arbitr.ru court arbitration, redator module russified, documentation cleanup.
+- **Dadata API and Rosreestr** (10:50 UTC+3): Connected Dadata API (rosapi) and pkk.rosreestr.ru (rosreestr), cleaned up CONTRIBUTING/CHANGELOG. Now 9 modules with real API connections.
 
-### ru-skill (4 commits on feat/mchs-storm-warnings)
+### tg_summarizer (1 new commit)
 
-- **English→Russian translation** (08:04): Boundary note, SKILL.md h1, package READMEs, frontmatter descriptions.
-- **Legacy boundary copy russification** (12:11).
-- **Transition copy and metadata alignment** (12:28).
-- **Changeset summaries and SKILL.md frontmatter russification** (17:55): doc-regression tests expanded.
+- **Bug fixes and prompt optimization** (11:05 UTC+3): Fixed empty-history spurious restore, save_updated_summary no-match bug, prompt optimization, context consistency improvements.
 
-### tg_summarizer (2 commits on autowork/2026-04-08-lambda-hardening)
+### ru-skill (1 new commit)
 
-- **Cache invalidation fixes, code dedup** (08:05): text_hash→utils, defensive SummaryInfo, cost optimization.
-- **Timeout and truncation hardening** (18:03): OpenAI timeout, NLP truncation, fetch limit, Telegram connect timeout.
+- **Roadmap and osm-nearby russification** (10:59 UTC+3): Russified roadmap milestone headings and osm-nearby English jargon, expanded doc-regression tests.
 
-### My-RU-Coverage (2 commits)
+### My-RU-Coverage (1 new commit)
 
-- **Anglicism annotations** (17:13, June 2): Russian explanations for 12 anglicisms, script russification.
-- **Legacy term cleanup** (07:10, June 3): 27 TECH_TERMS, 13 MATERIAL_TERMS, WIKILINK_ALIASES fix, LOCAL_COMPANY_TICKERS, discover.py sector alignment.
+- **CJK cleanup and wikilink declensions** (20:19 UTC+3): Removed Chinese characters from LEGACY_THEME_MARKERS and CJK-regex, russified argparse help (missing→непокрытых тикеров), removed HKD currency, added explanations for Tier/RHEL/Uptime Institute/SolidWorks/хостинг, fixed wikilink declension errors in 5 reports (20+ occurrences).
 
-### codex-console-english (2 commits)
+### codex-console-english (1 new commit)
 
-- **Round 23** (17:20, June 2): all 29 tests pass.
-- **Round 24** (07:21, June 3): no new non-English text found.
+- **Round 25** (today): Translation status verified, all 29 tests passing.
 
-### russia-md (1 commit)
+### birdclef_2026 (10+ new commits)
 
-- **Upstream review** (12:17, June 2): no additional applicable fixes.
+- **TF Perch migration and kernel fixes**: Switched from ONNX to TF Perch (offline wheels), added BC_INDICES mapping (14795 → 234 species), fixed GroupKFold + StratifiedShuffleSplit, fixed Kaggle papermill compatibility.
+- **Multi-probe ensemble**: Added 036 multi-probe ensemble (LR+MLP+GBDT), 034 results show AUC=0.6826 (negative). Continued embedding extraction and OOF indexing work.
+
+### open-divine-divinity-rust-bevy (1 new commit)
+
+- **Stealth mechanic** (10:47 UTC+3): Added stealth mechanic with crouch, invisibility, light level, and detection systems.
 
 ## Telegram channel (t.me/nlp_party)
 
 - No new original posts by Denis Gordeev since April 27, 2026.
-- Recent forwarded posts are from ecom.tech about Samokat "Вау-поиск" and FastML (courier partner internship story).
 
 ## Next actions
 
+- Create next AUTOWORK blog post on June 4 covering the activity listed above.
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
@@ -66,8 +64,9 @@ Latest automation round: 2026-06-03 (nineteenth round)
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
 - Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, birdclef_2026, open-divine-divinity-rust-bevy, tg_summarizer, ru-skill, wow_constructed_languages for follow-up posts.
-- Track birdclef_2026 embedding cache split approach to resolve the Kaggle timeout.
-- Track mcp-russia's continued real API integration (7 of ~20 modules connected).
+- Track birdclef_2026 multi-probe ensemble progress and TF Perch migration.
+- Track mcp-russia's continued real API integration (9 of ~20 modules connected).
 - Track ru-skill russification completion on feat/mchs-storm-warnings.
-- Track wow_constructed_languages expansion (17 languages, IPA, comparative linguistics so far).
-- Track My-RU-Coverage continued legacy term cleanup and russification.
+- Track wow_constructed_languages expansion beyond 20 languages with cross-language comparison table.
+- Track My-RU-Coverage continued CJK cleanup and russification.
+- Track open-divine-divinity-rust-bevy stealth and crafting mechanics.
