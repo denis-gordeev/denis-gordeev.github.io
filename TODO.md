@@ -4,48 +4,45 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-09 (twenty-fifth round)
+Latest automation round: 2026-06-10 (twenty-sixth round)
 
 ## Completed in this round
 
-- Scanned all monitored repos for new commits since the twenty-fourth round blog post.
-- Identified new activity in wow_constructed_languages (1 commit: nerubian scroll text analysis, -ar suffix, En- prefix, Earthen -oc/-roc, ethereal Arabic naming pattern — 487 lines added), mcp-russia (1 commit: all 27 Brazilian modules fully deleted with ~50k lines removed, 3 new Russian modules wired to real APIs, 601 tests pass), tg_summarizer (1 commit: critical bug fix for summary failure returning error string, token usage logging, 132 tests), ru-skill (1 commit: yandex-rasp and ktx_booking russification), codex-console-english (1 commit: Round 29 clean scan), open-divine-divinity-rust-bevy (1 commit: visual minimap, area dialogs, area quests, inventory swap/comparison — 1,073 lines added).
-- Created AUTOWORK blog post for June 9 covering six repos/projects.
+- Scanned all monitored repos for new commits since the twenty-fifth round blog post.
+- Identified new activity in wow_constructed_languages (3 commits: Eredun/Pandaren/Vulpera standard language files, kobyss research with Drust Stele catalog and Hallowfall place names, murloc/jinyu/ankoan/kobyss language family analysis — 1,596 lines added), tg_summarizer (1 commit: critical truncation bug fix UPDATE_SUMMARY_MAX_TOKENS 500→2000, indentation bug dropping NLP messages, cost optimization, 146 tests), birdclef_2026 (3 commits: experiments 048 extended soundscape training MIXED, 049 rank-averaging ensemble POSITIVE +0.087 AUC, 050 meta-augmented probes NEGATIVE — 2,857 lines added), ru-skill (1 commit: English comments/JSDoc/test descriptions russified across all target packages, 131 tests), open-divine-divinity-rust-bevy (1 commit: merchant trading, skill particle effects, enemy patrol/ranged AI — 1,016 lines added).
+- Created AUTOWORK blog post for June 10 covering five repos/projects.
 - Updated TODO.md with current round status and queued new activity for the next post.
 
-## Repo activity summary (post-blog 2026-06-09, twenty-fifth round)
+## Repo activity summary (post-blog 2026-06-10, twenty-sixth round)
 
-### wow_constructed_languages (1 new commit since twenty-fourth round)
+### wow_constructed_languages (3 new commits since twenty-fifth round)
 
-- **Nerubian scroll text, -ar suffix, En- prefix, Earthen -oc/-roc, ethereal Arabic naming** (June 8): Full scroll text analysis (orthographic conventions, phonological evidence, morphological decomposition); -ar faction suffix investigation (5 attestations, Low–Moderate confidence); En- prefix (Very Low confidence); Earthen -oc/-roc (2 attestations, Very Low confidence); ethereal Arabic-inspired naming pattern (9/25 names, High confidence for deliberate Blizzard design). 487 lines added across 9 files.
+- **Eredun, Pandaren, Vulpera standard language files** (June 9): Three languages previously had only index.html; now each has full vocabulary.md, grammar.md, description.md, and vocabulary.html. Cross-references updated. 532 lines added across 14 files.
+- **Kobyss research, Drust Stele catalog, Hallowfall place names** (June 9): 25+ kobyss NPC names (all Common descriptors), ankoan descent lore; Drust Steles expanded from 4 to all 10; 9 Arathi personal names, 12+ place names; ethereal updates (Devouring Host, Dark Heart, Voidstorm). 733 lines added across 7 files.
+- **Murloc/jinyu/ankoan/kobyss language family analysis** (June 9): Full evolutionary chain from Murloc (Nerglish) through Jinyu and Ankoan to Kobyss; 5 ankoan names, 30+ jinyu names, Nerglish phonotactic patterns, kobyss linguistic regression (3–5 Common words); 7 kobyss tribes, 5 chieftain names, cross-family phonological comparison table. 331 lines added across 4 files.
 
-### mcp-russia (1 new commit since twenty-fourth round)
+### tg_summarizer (1 new commit since twenty-fifth round)
 
-- **Brazilian modules fully removed, Russian APIs wired** (June 8): All 27 Brazilian modules deleted (source + tests, ~50k lines removed); deprecated Brazilian aliases and validators removed; Portuguese 'resultado ok' → Russian 'rezultat ok'; 3 new Russian modules wired to real APIs with multi-source fallbacks (sovfed, kaznacheistvo, rosprirodnadzor). 601 tests pass, 1 skipped.
+- **Critical truncation fix, indentation bug, cost optimization** (June 9): UPDATE_SUMMARY_MAX_TOKENS 500→2000 (was silently truncating summaries); indentation bug dropped all but last NLP message per batch; intra-batch dedup moved before coverage checks; coverage context built once per call; ENABLE_SUMMARIES_DEDUPLICATION and ENABLE_SUMMARY_UPDATES env-configurable; extract_links strips trailing punctuation; length guard in update_existing_summary. 14 new tests (146 total, all passing).
 
-### tg_summarizer (1 new commit since twenty-fourth round)
+### birdclef_2026 (3 new commits since twenty-fifth round)
 
-- **Critical bug fix, token usage logging** (June 8): Fix critical bug where summarize_text/summarize_group_text returned error string posted to Telegram; now returns None. Coverage check .startswith('ДА'). OpenAI token usage logging. Elapsed seconds in Lambda response. 9 new tests (132 total, all passing).
+- **048 Extended soundscape training (MIXED)** (June 9): MLP overfits, cosine prototypes fail (AUC 0.56), pseudo-labeling adds nothing. Tax blend still best at +0.073 AUC.
+- **049 Rank-averaging ensemble (POSITIVE)** (June 9): +0.087 AUC beats tax_blend (+0.073) by +0.014. Best ensemble result so far.
+- **050 Meta-augmented probes (NEGATIVE)** (June 9): Baseline/site/hour features hurt probes due to focal-soundscape distribution mismatch.
+- 2,857 lines added across 5 files.
 
-### ru-skill (1 new commit since twenty-fourth round)
+### ru-skill (1 new commit since twenty-fifth round)
 
-- **Yandex-rasp and ktx_booking russification** (June 8): Russified yandex-rasp fallback value and ktx_booking --seat-option help; expanded doc-regression tests.
+- **English comments, JSDoc, test descriptions russified** (June 9): All target packages (yandex-rasp, osm-nearby, zoon-nearby, kinopoisk-search, stoloto-lotto, rpl-results, pravo-documents, kakao-bar-nearby, airkorea, mchs-storm-warnings). Doc-regression expanded. 131 tests pass, 1 skipped.
 
-### codex-console-english (1 new commit since twenty-fourth round)
+### open-divine-divinity-rust-bevy (1 new commit since twenty-fifth round)
 
-- **Round 29 clean scan** (June 9): No new non-English text found, all 29 tests pass.
+- **Merchant trading, skill particle effects, enemy patrol/ranged AI** (June 9): Buy/sell items with gold; skill particle effects; Orc Archer ranged enemy; patrol AI. 1,016 lines added across game.rs and game/combat.rs. No remote configured — local-only development.
 
-### open-divine-divinity-rust-bevy (1 new commit since twenty-fourth round)
+### mcp-russia, codex-console-english, My-RU-Coverage, repo-autowork
 
-- **Visual minimap, area dialogs, area quests, inventory swap/comparison** (June 8): Major feature update with 1,073 lines added across game.rs, dialog.rs, layout.rs, quests.rs. No remote configured — local-only development.
-
-### My-RU-Coverage, russia-md, repo-autowork
-
-- No new commits since the twenty-fourth round.
-
-### birdclef_2026
-
-- No new commits. Repo has no remote configured.
+- No new commits since the twenty-fifth round.
 
 ## Telegram channel (t.me/nlp_party)
 
@@ -54,17 +51,17 @@ Latest automation round: 2026-06-09 (twenty-fifth round)
 ## Next actions
 
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
-- Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, tg_summarizer, ru-skill, wow_constructed_languages for follow-up posts.
-- Track wow_constructed_languages continued morphological analysis — ethereal Arabic naming pattern implications for morpheme reliability.
+- Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, tg_summarizer, ru-skill, wow_constructed_languages, birdclef_2026 for follow-up posts.
+- Track wow_constructed_languages continued morphological analysis — murloc language family now fully documented; watch for further language additions.
 - Track mcp-russia continued expansion — now 22 active Russian modules with real API connections.
-- Track ru-skill russification completion.
+- Track ru-skill russification — comments/JSDoc now russified across all target packages; watch for remaining surfaces.
 - Track My-RU-Coverage continued russification and abbreviation expansion.
-- Track tg_summarizer continued pipeline improvements — token usage logging now available for cost monitoring.
-- Track open-divine-divinity-rust-bevy local development — minimap and quest system in progress.
+- Track tg_summarizer continued pipeline improvements — truncation fix deployed; watch for further bug fixes.
+- Track birdclef_2026 — rank-averaging ensemble at +0.087 AUC is current best; watch for new experiments.
+- Track open-divine-divinity-rust-bevy local development — merchant trading and ranged AI in progress.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
 - Consider exposing the feed link in the header or footer if more posts accumulate.
 - Consider adding tags or categories only if the archive grows enough.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
-- Verify whether birdclef_2026 repo should be removed from monitoring (no remote, no new activity).
