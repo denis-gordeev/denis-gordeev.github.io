@@ -4,73 +4,71 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-11 (twenty-eighth round)
+Latest automation round: 2026-06-11 (twenty-ninth round)
 
 ## Completed in this round
 
-- Scanned all monitored repos for new commits since 2026-06-10 — significant activity found in 7 of 9 repos.
-- Checked t.me/nlp_party for new original posts by Denis Gordeev — no new original posts since April 27, 2026 (only forwards from ecom.tech, Самокат, FastML).
-- Created new AUTOWORK blog post covering: wow_constructed_languages (Hara'ni language, Midnight expansion, TWW data), birdclef_2026 (+0.1207 AUC 3-way rank-averaging new best), tg_summarizer (NLP pre-filter, combined coverage+match, cost optimization), mcp-russia (ЕМИСС universal tool, Rosstat expansion), open-divine-divinity-rust-bevy (housing, companions, enchanting, puzzle dungeons), My-RU-Coverage (sector cleanup, 37 grammar fixes), ru-skill (final English jargon russification).
+- Re-scanned all monitored repos for new commits after 2026-06-11 twelfth round — activity found in 3 of 9 repos (wow_constructed_languages, birdclef_2026, My-RU-Coverage).
+- No new blog post created — post for 2026-06-11 already exists (twenty-eighth round); per "not more than once per day" rule.
+- New repo activity is notable enough for a follow-up post on 2026-06-12.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (post-blog 2026-06-11, twenty-eighth round)
+## Repo activity summary (post-blog 2026-06-11, twenty-ninth round)
 
-Major activity across 7 repositories since the twenty-seventh round.
+Activity in 3 repositories since the twenty-eighth round.
 
 ### wow_constructed_languages
 
-- 4 commits, 19,594 insertions across 21 files
-- New Hara'ni (Haranir) language section with full linguistic analysis
-- Midnight expansion language data: Aln- root, Ruutani, Hash'ey, domanaar, Zandali -ey suffix
-- Wikipedia-confirmed TWW Undermine/Ghosts of K'aresh/Legacy of Arathor data
-- Haranir deepened: -ia feminine suffix, Haranir-nerubian loanwords, Greenspeaker/Thornspeaker parallel
-- All 10 Drust Stele inscription texts recovered
+- 2 commits, 85 insertions, 37 deletions across 6 files
+- **Major Hara'ni breakthrough**: 6 confirmed translations from warcraft.wiki.gg
+  - Shul'ka = 'Hunters of Shadows', Aln'hara = 'Worldsoul of Azeroth'
+  - Har'alnor = 'Village of Twilight', Har'athir = 'Village of Memory'
+  - Har'kuai = 'Village of Rain', Har'mara = 'Village of Balance'
+- Confirmed Har' = 'village' (4 attestations, High confidence)
+- Confirmed Haranir descend from dark trolls/night elves (Art of Midnight pg. 125)
+- Resolved Haranir goddess = Aln'hara (the Azeroth Worldsoul)
+- 8+ new NPCs (Chonon, Fuunid, Kawayn, Or'jan, Zhakir, En'liahn, Chua, Morta'ka)
+- 10+ new place names including 4 villages with translations
+- Expanded consonant inventory with /ʃ/, /tʃ/, /dʒ/, /ʒ/, /θ/
+- Reclassified Hara'ni as deeply divergent elven/troll branch
+- Synced HTML vocabulary and comparative pages with updated data
 
 ### birdclef_2026
 
-- 3 commits, 3,469 insertions
-- New best: +0.1207 AUC with 3-way rank-averaging (052c) — +0.034 above previous best
-- Per-taxon rank-averaging at +0.1024 AUC (051)
-- 052 probe techniques and 054 multi-view probes: negative
-
-### tg_summarizer
-
-- 2 commits, 824 insertions, 171 tests (all passing)
-- NLP keyword pre-filter saves 30-50% of LLM calls
-- Combined coverage+match check (saves 1 LLM call per covered message)
-- Config validation, error handling, stale summary fix, cost optimization
-- Lambda hardening: deadline propagation, message limits
-
-### mcp-russia
-
-- 2 commits, 765 insertions
-- Universal indikator_dannye tool (ЕМИСС API)
-- Rosstat expansion: ВРП, зарплата, региональные сравнения
-- format_rub fix, API token unification, Portuguese fixture cleanup
-
-### open-divine-divinity-rust-bevy
-
-- 2 commits, 4,068 insertions
-- Player housing, merchant restocking, skill tree, friendly NPC crossfire
-- Companion system, puzzle dungeons, enchanting system, minimap markers
+- 1 commit (585 insertions) + 2 TODO.md commits
+- 059 confidence-weighted rank-averaging: NEGATIVE (0.8717 vs 052c 0.9136)
+  - Instance-level confidence cannot replace per-taxon optimized weights
+- 010 closed (taxonomy-aware mixup reduces to standard mixup, already tested in 043)
+- Post-competition future ideas added (060-063) for next BirdCLEF iteration
+- All remaining open TODOs marked as blocked (competition closed)
 
 ### My-RU-Coverage
 
-- 2 commits, 80 files modified (988 insertions, 553 deletions)
-- Eliminated "Не определено" sector (ASTR→Технологии, CNRU→Недвижимость)
-- 37 grammar errors fixed in 18 reports
-- 318+ generic wiki-links converted to plain text
-- SECTOR_THEME_MAP for automatic theme generation
+- 1 commit, 107 insertions, 85 deletions across 10 files
+- Russian explanations added for BaaS/DRaaS/SaaS/ERP/AWS/FreeCAD
+- Wiki-links added for Dell/HPE/Cisco
+- Generic wiki-links eliminated: [[Геологоразведка]]/[[Европа]]/[[Дженерика]]
+- Mining locations added to PLZL report
+
+### tg_summarizer
+
+- No new commits
+
+### mcp-russia
+
+- No new commits
+
+### open-divine-divinity-rust-bevy
+
+- No new commits
 
 ### ru-skill
 
-- 1 commit
-- Russified remaining English jargon (lookup, real-time, nearby, Sold out, etc.)
-- JSDoc and source code comments translated, doc-regression expanded
+- No new commits
 
 ### codex-console-english
 
-- 3 commits (TODO.md updates only, no code changes)
+- 1 commit (TODO.md update only, no code changes)
 
 ### repo-autowork
 
@@ -82,14 +80,15 @@ Major activity across 7 repositories since the twenty-seventh round.
 
 ## Next actions
 
+- **Next round (2026-06-12) should create a new AUTOWORK blog post** covering: wow_constructed_languages (6 confirmed Hara'ni translations, dark troll/night elf origin, Aln'hara = Worldsoul, reclassified as divergent elven/troll branch), birdclef_2026 (059 confidence-weighted negative, competition closed, future ideas 060-063), My-RU-Coverage (Russian explanations for tech terms, generic wiki-link cleanup, PLZL mining locations).
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Watch for new commits on autowork, mcp-russia, codex-console-english, russia-md, My-RU-Coverage, tg_summarizer, ru-skill, wow_constructed_languages, birdclef_2026 for follow-up posts.
-- Track wow_constructed_languages — Hara'ni language now documented; watch for Midnight expansion additions and further Haranir morphological analysis.
+- Track wow_constructed_languages — 6 confirmed Hara'ni translations now available; watch for further confirmed etymologies and Midnight expansion data.
 - Track mcp-russia continued expansion — ЕМИСС universal tool now available; watch for new data sources.
 - Track ru-skill russification — English jargon now fully russified; watch for remaining surfaces.
-- Track My-RU-Coverage — "Не определено" sector eliminated; watch for further russification and grammar improvements.
+- Track My-RU-Coverage — Round #31 russification continues; watch for further tech term explanations and wiki-link cleanup.
 - Track tg_summarizer — NLP pre-filter and combined checks deployed; watch for further cost/reliability improvements.
-- Track birdclef_2026 — +0.1207 AUC is current best with 3-way rank-averaging; oracle gap only 0.0017; watch for new experiments.
+- Track birdclef_2026 — competition closed; future ideas 060-063 queued for next BirdCLEF iteration.
 - Track open-divine-divinity-rust-bevy — housing, companions, enchanting, puzzle dungeons now in; watch for further gameplay systems.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
