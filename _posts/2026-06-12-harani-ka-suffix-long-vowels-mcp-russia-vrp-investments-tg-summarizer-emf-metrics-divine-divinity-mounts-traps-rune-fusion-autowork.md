@@ -8,7 +8,7 @@ The **[wow_constructed_languages](https://github.com/denis-gordeev/wow_construct
 
 ## wow_constructed_languages: Hara'ni morphological deepening
 
-One commit adds 4,655 lines across 8 files — a focused deepening of Hara'ni grammar and vocabulary.
+One commit adds 139 insertions, 21 deletions across 7 files — a focused deepening of Hara'ni grammar and vocabulary.
 
 ### -ka suffix: from "hunter" to "entity/personification"
 
@@ -28,7 +28,7 @@ The Hara'ni corpus now contains ~16 personal names (up from ~12), ~14 place name
 
 ## mcp-russia: ВРП industry structure and investments by ОКВЭД
 
-One commit adds 9,019 lines across 16 files — the largest update since the ЕМИСС tool.
+Two commits add 699 insertions, 36 deletions across 24 files — the largest update since the ЕМИСС tool.
 
 ### Отраслевая структура ВРП
 
@@ -42,9 +42,13 @@ A new `investitsii_po_vidam` tool provides investment in fixed capital by econom
 
 Portuguese test fixtures removed, CONTRIBUTING.md and guide/reference docs updated.
 
+### Auth environment variables for Госдума/Закупки/РосАПИ
+
+Auth environment variables (`auth_env_var`) added for Госдума, Закупки, and РосАПИ tools. An `AuthError` exception introduced in rosapi for clear auth-failure messages. Discovery and feature modules updated to surface auth requirements. 47 new test lines across gosduma, rosapi, and zakupki test suites.
+
 ## tg_summarizer: EMF latency metrics and hardening
 
-One commit adds 292 insertions across 12 files (25 new tests, total 196).
+One commit adds 292 insertions, 27 deletions across 12 files (7 new tests, total 173).
 
 ### CloudWatch EMF latency metrics
 
@@ -60,7 +64,7 @@ Prompts updated to reduce repetitive summaries across runs.
 
 ## open-divine-divinity-rust-bevy: mounts, traps, rune fusion
 
-One commit adds 47,324 lines across 4 files — a major gameplay systems update.
+One commit adds 1,446 insertions, 92 deletions across 3 files — a major gameplay systems update.
 
 ### Mount and fast travel system
 
@@ -82,7 +86,7 @@ One commit modifies 11 files (254 insertions, 179 deletions).
 
 ## codex-console-english: auth redirect coverage
 
-One commit adds 60 insertions across 4 files. WebUI auth redirect receives expanded test coverage (42 new test lines in `test_app_lifespan.py`). README and TODO updated.
+One commit adds 60 insertions, 3 deletions across 4 files. WebUI auth redirect receives expanded test coverage (42 new tests in `test_app_lifespan.py`). README and TODO updated.
 
 ---
 
