@@ -4,64 +4,45 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-12 (thirtieth round)
+Latest automation round: 2026-06-14 (thirty-first round)
 
 ## Completed in this round
 
-- Scanned all 9 monitored repos for new commits after the 2026-06-11 twenty-ninth round — activity found in 6 of 9 repos.
-- Created AUTOWORK blog post for 2026-06-12 covering: wow_constructed_languages (Hara'ni -ka suffix deep analysis, -neia/-leia/-iea feminine decomposition, long /uː/ confirmed, Ruutani spelling resolved), mcp-russia (ВРП industry structure by ОКВЭД, investments by activity type, auth_env_var for Госдума/Закупки/РосАПИ), tg_summarizer (CloudWatch EMF latency metrics with 20s alarm, anti-repetition prompts, config hardening), open-divine-divinity-rust-bevy (mount/fast travel, trap dungeon rooms, rune fusion), ru-skill (~90 JS + 19 Python test descriptions russified, API→API-справочник), codex-console-english (webui auth redirect test coverage).
+- Scanned all 9 monitored repos for new commits after the 2026-06-12 thirtieth round — only birdclef_2026 had a commit (TODO.md update, no actionable work).
+- No new AUTOWORK blog post created — insufficient meaningful activity across monitored repositories.
+- Could not access t.me/nlp_party (timeout); no new original posts by Denis Gordeev known since April 27, 2026.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-06-12, thirtieth round)
+## Repo activity summary (2026-06-14, thirty-first round)
 
-Activity in 6 repositories since the twenty-ninth round.
+Activity in 1 repository since the thirtieth round.
+
+### birdclef_2026
+
+- 1 commit: TODO.md update (automation round 2026-06-14 — no new actionable work)
+- Competition closed; future ideas 060-063 queued for next BirdCLEF iteration
 
 ### wow_constructed_languages
 
-- 1 commit, 139 insertions, 21 deletions across 7 files
-- **-ka suffix deepened**: three interpretations evaluated (hunter, entity/personification, severed/ritually bonded); broad agentive/personification preferred
-- **-neia/-leia/-iea analysis**: shown to be three name stems + single *-a* feminine suffix, not three distinct suffixes
-- **Long /uː/ confirmed**: *Fuunid* and *Ruutani* provide two independent attestations
-- **Ruutani spelling resolved**: Wikipedia consistently uses "ruutani" (lowercase); confidence upgraded to Low–Moderate
+- No new commits
 
 ### mcp-russia
 
-- 2 commits, 699 insertions, 36 deletions across 24 files
-- **Отраслевая структура ВРП**: new tool providing GRP breakdown by ОКВЭД sections (national and regional)
-- **Инвестиции по видам деятельности**: new tool for investment in fixed capital by activity type (ОКВЭД)
-- **Auth env vars**: `auth_env_var` added for Госдума, Закупки, РосАПИ tools; `AuthError` in rosapi
-- 107 new test lines for Rosstat tools; 47 new test lines for gosduma/rosapi/zakupki
-- Documentation cleanup (Portuguese fixtures removed, guides updated)
+- No new commits
 
 ### tg_summarizer
 
-- 1 commit, 292 insertions, 27 deletions across 12 files
-- **CloudWatch EMF latency metrics** with 20s alarm threshold
-- **Anti-repetition prompts** updated for summary conciseness
-- **RESTORE_TIMEOUT_SEC** moved to config.py with _get_int_env validation
-- 7 new tests (total 173)
+- No new commits
 
 ### open-divine-divinity-rust-bevy
 
-- 1 commit, 1,446 insertions, 92 deletions across 3 files
-- **Mount/fast travel**: F1 horse (1.6x speed, outdoor only); F4 fast travel to discovered areas
-- **Trap dungeon rooms**: Poison Gas, Collapsing Floor, Timed Escape
-- **Rune fusion**: Period key panel, 5 composite rune recipes with enhanced stat bonuses
-- 24 new tests (450 total)
+- No new commits
 
 ### ru-skill
 
-- 1 commit, 254 insertions, 179 deletions across 11 files
-- ~90 JS test descriptions and 19 Python test descriptions russified
-- `## API` → `## API-справочник` section headers
-- doc-regression expanded for English test descriptions and API headers
+- No new commits
 
 ### codex-console-english
-
-- 1 commit, 60 insertions, 3 deletions across 4 files
-- WebUI auth redirect test coverage expanded (42 new tests)
-
-### birdclef_2026
 
 - No new commits
 
@@ -75,7 +56,7 @@ Activity in 6 repositories since the twenty-ninth round.
 
 ## Telegram channel (t.me/nlp_party)
 
-- No new original posts by Denis Gordeev since April 27, 2026. Recent channel activity consists of forwards from ecom.tech, Самокат, and FastML.
+- Could not access (timeout). No new original posts by Denis Gordeev known since April 27, 2026.
 
 ## Next actions
 
@@ -95,4 +76,4 @@ Activity in 6 repositories since the twenty-ninth round.
 - Consider adding tags or categories only if the archive grows enough.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
-- Next round should re-scan all repos for any commits after 2026-06-12.
+- Next round should re-scan all repos for any commits after 2026-06-14.
