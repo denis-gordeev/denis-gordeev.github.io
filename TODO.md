@@ -4,23 +4,25 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-16 (thirty-fifth round)
+Latest automation round: 2026-06-16 (thirty-sixth round)
 
 ## Completed in this round
 
-- Scanned all 9 monitored repos for new commits after the 2026-06-15 thirty-fourth round.
-- New commits found in 4 repos since the thirty-fourth round: My-RU-Coverage (1 commit), wow_constructed_languages (1 commit), mcp-russia (2 commits), codex-console-english (1 commit).
-- Created AUTOWORK blog post for 2026-06-16 covering: My-RU-Coverage round #38, wow_constructed_languages grammar/description hypertext for 29 languages, mcp-russia 100% docstring coverage.
+- Scanned all 9 monitored repos for new commits after 2026-06-16 08:00 UTC (thirty-fifth round).
+- New commits found in 1 repo since the thirty-fifth round: wow_constructed_languages (2 commits).
+- No new AUTOWORK blog post created — a post for 2026-06-16 already exists (35th round); per once-per-day rule, the new wow_constructed_languages activity is deferred to the next round.
 - Telegram channel t.me/nlp_party unreachable from current network (connection timeout); no new posts confirmed.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-06-16, thirty-fifth round)
+## Repo activity summary (2026-06-16, thirty-sixth round)
 
-- **My-RU-Coverage**: 1 new commit — round #38 (28 files: бренд→торговая марка, дискаунтер→магазин низких цен, лизинг→аренда, маркетинг→сбыт/продвижение, банкинг→банковское дело, вендор→поставщик, бизнес-процессы→деловые процессы, колокация→совместное размещение, хостинг→размещение на сервере, секьюритизация/клиринг→пояснения, рекламный инвентарь→рекламные площади, офлайн-сеть→сеть физических отделений, РФ-сегмент→российский сегмент; МСФО/РСБУ expanded; EV→электромобиль alias removed).
-- **wow_constructed_languages**: 1 new commit — grammar.html and description.html (hypertext) added for all 29 languages, completing the browsable hypertext documentation suite.
-- **mcp-russia**: 2 new commits — Russian docstrings for 110 undocumented functions in 11 modules of data/client.py; final 11 functions documented reaching 100% coverage; ЕМИСС codes verified.
-- **codex-console-english**: 1 new commit — fix 154 JS comment spacing issues, replace em dash with ASCII in session.py docstring (minor cleanup).
-- **ru-skill**: No new commits since thirty-fourth round.
+- **wow_constructed_languages**: 2 new commits —
+  1. Add cross-navigation to all vocabulary.html, fix .md→.html links across all HTML files (minor HTML navigation fix across 35+ files).
+  2. Expand Gutterspeak/Kalimag/Taur-ahe with new lore; create Nerglish directory; sync HTML files (significant: new Nerglish language extracted from Earthen with 6 new files — vocabulary.md/html, grammar.md/html, description.md/html; Gutterspeak expanded with pre-Forsaken origins, Dwarven/Thalassian influence, black market origins; Kalimag expanded with confirmed dialects Ignan/Aquan/Terran/Auran, Frostmourne inscription, Molten Core runes; Taur-ahe expanded with IPA confirmation, 18+ confirmed translations, Spirit Walker incantations, new morpheme analyses; Earthen vocabulary updated to reference Nerglish; total language count now 30).
+- **My-RU-Coverage**: No new commits since thirty-fifth round.
+- **mcp-russia**: No new commits since thirty-fifth round.
+- **codex-console-english**: No new commits since thirty-fifth round.
+- **ru-skill**: No new commits since thirty-fifth round.
 - **tg_summarizer**: No new commits (last: 2026-04-06).
 - **open-divine-divinity-rust-bevy**: Repo not found (404) — possibly private or renamed.
 - **birdclef_2026**: Repo not found (404) — possibly private or renamed.
@@ -31,11 +33,12 @@ Latest automation round: 2026-06-16 (thirty-fifth round)
 
 ## Next actions
 
+- **Priority**: Create AUTOWORK blog post for next available date covering wow_constructed_languages — Nerglish language (30th language), Gutterspeak/Kalimag/Taur-ahe lore expansions, cross-navigation HTML fixes.
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Watch for new commits on all 9 monitored repos for follow-up posts.
+- Track wow_constructed_languages — now 30 languages with Nerglish added; watch for further vocabulary/grammar expansions and new language directories.
 - Track ru-skill — major expansion via PR #1 (MCHS storm warnings + new skill modules); watch for further skill additions and continued russification.
 - Track My-RU-Coverage — round #38 complete; watch for continued russification and classification expansion.
-- Track wow_constructed_languages — hypertext documentation for all 29 languages now complete; watch for further vocabulary/grammar expansions.
 - Track mcp-russia — 100% docstring coverage achieved; watch for new modules or continued russification.
 - Track codex-console-english — English translation complete (round 38); watch for further quality improvements or new features.
 - Track tg_summarizer — float config and deadline hardening deployed; watch for further cost/reliability improvements.
@@ -47,4 +50,4 @@ Latest automation round: 2026-06-16 (thirty-fifth round)
 - Consider adding tags or categories only if the archive grows enough.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
-- Next round should re-scan all repos for any commits after 2026-06-16 08:00 UTC.
+- Next round should re-scan all repos for any commits after 2026-06-16 16:00 UTC.
