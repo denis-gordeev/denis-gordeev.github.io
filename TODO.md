@@ -4,34 +4,27 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-18 (thirty-eighth round)
+Latest automation round: 2026-06-18 (thirty-ninth round)
 
 ## Completed in this round
 
-- Scanned all 9 monitored repos for new commits after 2026-06-17 08:00 UTC (thirty-seventh round).
-- New commits found in 5 repos since the thirty-seventh round: wow_constructed_languages (3), My-RU-Coverage (1), codex-console-english (1), ru-skill (1), tg_summarizer (1).
-- Created AUTOWORK blog post for 2026-06-18 covering: IPA phonology charts for 11 languages, attestation tables for 6, dialectal variation for 17 (wow_constructed_languages); 17-term russification + doc-regression (ru-skill); Lambda hardening round 26 (tg_summarizer); round #41 SaaS/IaaS russification (My-RU-Coverage); OTP and health status polish (codex-console-english).
-- GitHub API unreachable from current network (connection reset); used local clones for commit scanning.
+- Scanned all 9 monitored repos for new commits after 2026-06-18 08:00 UTC (thirty-eighth round).
+- No new commits found in any monitored repos since the thirty-eighth round.
+- No new AUTOWORK blog post created (daily limit already reached — post for 2026-06-18 exists).
+- GitHub API unreachable (auth token invalid); used local clones for commit scanning.
 - Telegram channel t.me/nlp_party unreachable from current network; no new posts confirmed.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-06-18, thirty-eighth round)
+## Repo activity summary (2026-06-18, thirty-ninth round)
 
-- **wow_constructed_languages**: 3 new commits —
-  1. Add phonology to Zandali/Thalassian grammar; expand Zandali/Thalassian/Nazja descriptions; fix HTML sync issues.
-  2. Add phonology sections to Darnassian/Orcish grammar; expand Darnassian/Orcish/Nazja descriptions; add morphological analyses; standardize all HTML tables.
-  3. Add IPA phonology charts to 11 languages; add attestation tables to 6 languages; add dialectal variation to 17 languages; sync all HTML counterparts (18559 insertions, 121 files total across all 3 commits).
-- **My-RU-Coverage**: 1 new commit —
-  1. Round #41: провайдер→поставщик, бизнес-модель→коммерческая модель, English echo brackets removed (SaaS/IaaS/SLA etc.); enrichment JSON process fixes; utils.py aliases added; discover.py: ИИ, интернет вещей (140 insertions, 13 files).
-- **codex-console-english**: 1 new commit —
-  1. Polish remaining translation artifacts: OTP terminology, whether, email data, health statuses (71 insertions, 17 files).
-- **ru-skill**: 1 new commit —
-  1. Русифицировать 17 terms: side effects→действия с побочными эффектами, holdings→позиций, pixel-perfect→точную, watchlist→список наблюдения, waitlist→лист ожидания, scope→область действия, inline-→встроенные, canonical→канонический, merchant-level→со стороны продавца, anchor-точка→опорная точка, slug→идентификатор, ingress→входной прокси, extraction→извлечение, flow→потоки, dry-run→пробный запуск, фикстура→эталонные данные, слаг→идентификатор; doc-regression expanded (269 insertions, 24 files).
-- **tg_summarizer**: 1 new commit —
-  1. feat: HTML entity counting, fsync durability, cost guard, hash dedup, S3 empty-file guard; 11 new tests (255 total) (340 insertions, 10 files).
-- **mcp-russia**: No new commits since thirty-seventh round.
+- **wow_constructed_languages**: No new commits since thirty-eighth round.
+- **My-RU-Coverage**: No new commits since thirty-eighth round.
+- **codex-console-english**: No new commits since thirty-eighth round.
+- **ru-skill**: No new commits since thirty-eighth round.
+- **tg_summarizer**: No new commits since thirty-eighth round.
+- **mcp-russia**: No new commits since thirty-eighth round.
 - **open-divine-divinity-rust-bevy**: Repo not found (404) — possibly private or renamed.
-- **birdclef_2026**: 3 commits (TODO updates only, no actionable work).
+- **birdclef_2026**: No new commits since thirty-eighth round.
 
 ## Telegram channel (t.me/nlp_party)
 
