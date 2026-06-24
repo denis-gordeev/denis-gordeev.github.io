@@ -4,28 +4,29 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-24 (forty-fourth round)
+Latest automation round: 2026-06-25 (forty-fifth round)
 
 ## Completed in this round
 
-- Scanned all 9 monitored repos for new commits after 2026-06-23 20:00 UTC (forty-third round).
-- **codex-console-english**: 1 new commit — Fix ~60 translation artifacts across 31 files: Noun+failed→Failed to verb, redundant "successfully", stilted UI labels, and Chinese calques. Substantive code quality improvement.
-- **My-RU-Coverage**: 1 new commit — Round #45 russification: 11 loanword categories replaced across 10+ reports (бизнес→предприятие, брокер→посредник, софт→программное обеспечение, etc.); tooling updates (wikilink→викилинк, WIKILINK_ALIASES +12, русификация build_themes.py, enrichment JSON 6 fixes, artifact rebuild).
+- Scanned all 9 monitored repos for new commits after 2026-06-24 17:00 UTC.
+- **wow_constructed_languages**: 4 new commits — Massive Shath'Yar expansion with 55+ confirmed Blizzard-translated phrases, reconstructed pronoun system, preliminary syntax analysis, speculative dictionary, and in-game parser word list. Ethereal vocabulary gains Zo'- prefix (3 attestations), cuneiform writing confirmation, Sufaadi demonym, Domanaar species data, and K'aresh city-states. Zandali gains 'no' connective particle and Vol' prefix analysis. 14 language description files receive Overview/Phonological Features/Writing System sections. Largest single update to the repository.
+- **codex-console-english**: 1 new commit — Fix remaining Chinese-English translation artifacts: whether→True if, has been→was, verification code→OTP in test.
+- **My-RU-Coverage**: 1 new commit — Round #46: 8 loanword categories replaced (лидер→крупнейший/ведущий, мониторинг→контроль, инжиниринг-закупки-строительство→инженерно-закупочно-строительная модель, etc.); WIKILINK_ALIASES +4; artifact rebuild.
 - **birdclef_2026**: 1 new commit — TODO.md update only (automation round with no actionable work).
-- **wow_constructed_languages**: No new commits since forty-third round.
-- **mcp-russia**: No new commits since forty-third round.
-- **ru-skill**: No new commits since forty-third round.
-- **tg_summarizer**: No new commits since forty-third round.
-- **open-divine-divinity-rust-bevy**: No new commits since forty-third round.
-- Created AUTOWORK blog post for 2026-06-24 covering codex-console-english translation artifact fixes and My-RU-Coverage round #45.
+- **mcp-russia**: No new commits since forty-fourth round.
+- **ru-skill**: No new commits since forty-fourth round.
+- **tg_summarizer**: No new commits since forty-fourth round.
+- **open-divine-divinity-rust-bevy**: No new commits since forty-fourth round.
+- Created AUTOWORK blog post for 2026-06-25 covering wow_constructed_languages Shath'Yar expansion, ethereal Zo'-/cuneiform/Sufaadi, Zandali no/Vol updates, codex-console-english remaining artifact fixes, and My-RU-Coverage round #46.
 - GitHub API unreachable (auth token invalid); used local clones for commit scanning.
 - Telegram channel t.me/nlp_party timed out; no new original content detected.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-06-24, forty-fourth round)
+## Repo activity summary (2026-06-25, forty-fifth round)
 
-- **codex-console-english**: 1 new commit (31 files, 121 insertions, 99 deletions) — systematic translation quality pass fixing ~60 artifacts: (1) Noun+failed → Failed to verb (the most pervasive Chinese calque, spanning frontend JS and backend Python); (2) redundant "successfully" removed from 10+ log lines and API responses; (3) stilted UI labels rephrased ("User information generation" → "User profile generation", "Operation timeout" → "Operation timed out"); (4) other Chinese calques rephrased to idiomatic English.
-- **My-RU-Coverage**: 1 new commit (31 files, 209 insertions, 166 deletions) — round #45 replaces 11 loanword categories: бизнес→предприятие/направление/деятельность (19 occurrences, 10 reports), брокер→посредник (6 occurrences, 3 reports), софт→программное обеспечение, кластер→узел/комплекс, трафик→поток посетителей, контент→информационное наполнение, медиа→информационно-развлекательные сервисы, спрэд→устранён, интегратор→поставщик комплексных решений, профучастники→профессиональные участники рынка; tooling: wikilink→викилинк, WIKILINK_ALIASES +12, русификация build_themes.py, enrichment JSON 6 corrections, network graph artifacts rebuilt.
+- **wow_constructed_languages**: 4 new commits (67 files, 2,213 insertions, 236 deletions) — (1) c99b33f: Venomous Abyss raid bosses, Overview/Phonology/Writing System sections for 8 languages (474 insertions); (2) e5f91ac: Overview/Phonological Features/Writing System for all 14 remaining language description files (514 insertions); (3) f628091: Domanaar species data (13 names), Salhadaar official IPA, Fallen-King section, K'aresh lore, Latin vs Arabic naming analysis (242 insertions, 51 deletions); (4) 79a29d8: Massive Shath'Yar expansion — 55+ confirmed phrases, pronoun system, possessive sk- prefix, syntax (word order/negation/copula), future tense markers, speculative dictionary, parser word list, ethereal Zo'- prefix, cuneiform, Sufaadi, Zandali 'no' particle, Vol' prefix, cultural notes (1,558 insertions, 183 deletions).
+- **codex-console-english**: 1 new commit (4 files, 15 insertions, 4 deletions) — fixes remaining Chinese-English artifacts: whether→True if (Python conditional), has been→was (simplified past tense), verification code→OTP (accurate test terminology).
+- **My-RU-Coverage**: 1 new commit (21 files, 155 insertions, 129 deletions) — round #46 replaces 8 loanword categories: лидер→крупнейший/ведущий (8 reports), мониторинг→контроль (DATA), инжиниринг-закупки-строительство→инженерно-закупочно-строительная модель (HYDR), дистрибутив→сборка (ASTR), Интернет-контент и информация→Интернет-информационные сервисы (YDEX + scripts), бизнес→направление (3 scripts), контент→содержимое (2 docstrings); WIKILINK_ALIASES +4; network graph artifacts rebuilt.
 - **birdclef_2026**: 1 new commit (2 insertions, 1 file) — TODO.md automation round update only; no actionable work.
 
 ## Telegram channel (t.me/nlp_party)
@@ -36,13 +37,13 @@ Latest automation round: 2026-06-24 (forty-fourth round)
 
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Watch for new commits on all 9 monitored repos for follow-up posts.
-- Track codex-console-english — ~60 translation artifacts fixed; watch for further quality passes or new features.
-- Track My-RU-Coverage — round #45 completed with 11 loanword categories; watch for continued russification rounds.
-- Track wow_constructed_languages — five linguistic investigations significantly deepen the theoretical analysis; watch for new primer data from Midnight expansion content or further patch updates.
+- Track wow_constructed_languages — Shath'Yar now has 55+ confirmed phrases, pronoun system, and syntax analysis; watch for further Midnight expansion content, new phrase discoveries, or deeper grammar reconstruction.
+- Track codex-console-english — remaining artifact fixes applied; watch for further quality passes or new features.
+- Track My-RU-Coverage — round #46 completed with 8 loanword categories; watch for continued russification rounds.
 - Track mcp-russia — deepest code-level russification complete; watch for remaining English identifiers or new modules.
 - Track ru-skill — scope/server/Legacy terms russified; watch for continued russification and new skill modules.
 - Track tg_summarizer — circuit breaker observability deployed; watch for further cost/reliability improvements.
-- Track open-divine-divinity-rust-bevy — real game asset loading with CMP parser; watch for sprite rendering and further asset integration.
+- Track open-divine-divinity-rust-bevy — sprite animation system added; watch for further rendering and game mechanics.
 - Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
@@ -50,4 +51,4 @@ Latest automation round: 2026-06-24 (forty-fourth round)
 - Consider adding tags or categories only if the archive grows enough.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
-- Next round should re-scan all repos for any commits after 2026-06-24 20:00 UTC.
+- Next round should re-scan all repos for any commits after 2026-06-25 17:00 UTC.
