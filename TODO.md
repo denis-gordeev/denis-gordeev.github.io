@@ -4,27 +4,23 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-06-30 (fiftieth round)
+Latest automation round: 2026-07-01 (fifty-first round)
 
 ## Completed in this round
 
-- Scanned all 9 monitored repos for new commits after 2026-06-29 18:15 UTC.
-- **My-RU-Coverage**: 1 commit — Round #52: кибербезопасность→информационная безопасность (×13), телеком→телекоммуникационный (×20), монетизация→извлечение дохода (×3), тенденций→динамики, ландшафт→среда, верификация→подтверждение, рекомендательные системы→системы подбора, конфигурация→устройство, идентификация→установление личности, деловые процессы→операционная деятельность, Сервисы→Справочно-аналитические службы (×4); P0 key-sync bugfix; theme consolidation; WIKILINK_ALIASES +9.
-- **codex-console-english**: 1 commit — Round 55: "success sign"→proper return types, "cannot be empty"→"is required", verbose→concise English in docstrings and error messages.
-- **birdclef_2026**: 1 commit — TODO updates only, no actionable work.
-- Created AUTOWORK blog post for 2026-06-30.
+- Scanned all 9 monitored repos for new commits after 2026-06-30 18:00 UTC.
+- **codex-console-english**: 1 commit — Round 56: exception→error (×14), have been→simple past (×4), stilted docstrings→natural English (×2).
+- Created AUTOWORK blog post for 2026-07-01.
 - Jekyll build passes.
 - GitHub API unreachable (auth token invalid); used local clones for commit scanning.
 - Telegram channel t.me/nlp_party checked; no new original content by Denis Gordeev.
 - Updated TODO.md with current round status.
 
-## Repo activity summary (2026-06-30, fiftieth round)
+## Repo activity summary (2026-07-01, fifty-first round)
 
 | Repo | Commits | Key changes |
 |------|---------|-------------|
-| My-RU-Coverage | 1 | Round #52: 11 loanword replacements, P0 key-sync bugfix, theme consolidation |
-| codex-console-english | 1 | Round 55: final docstring/error message artifacts |
-| birdclef_2026 | 1 | TODO updates only |
+| codex-console-english | 1 | Round 56: exception→error, have been→simple past, stilted docstrings |
 
 ## Telegram channel (t.me/nlp_party)
 
@@ -40,7 +36,7 @@ Latest automation round: 2026-06-30 (fiftieth round)
 - Track My-RU-Coverage — round #52 completed with P0 bugfix; watch for continued russification rounds.
 - Track ru-skill — rounds #66–67 completed; watch for continued documentation russification.
 - Track tg_summarizer — PromptManager and S3 alarm added; watch for further cost/reliability improvements.
-- Track codex-console-english — Round 55 final docstring artifacts fixed; watch for any new features or artifacts.
+- Track codex-console-english — Round 56 completed (exception→error, have been→simple past, stilted docstrings); watch for any new features or artifacts.
 - Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
@@ -48,4 +44,4 @@ Latest automation round: 2026-06-30 (fiftieth round)
 - Consider adding tags or categories only if the archive grows enough.
 - Authenticate `gh` locally so future rounds can inspect open GitHub issues and PRs.
 - Monitor t.me/nlp_party for NLP and text processing news to feature in future posts.
-- Next round should re-scan all repos for any commits after 2026-06-30 18:00 UTC.
+- Next round should re-scan all repos for any commits after 2026-07-01 18:00 UTC.
