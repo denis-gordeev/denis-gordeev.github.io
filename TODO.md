@@ -4,20 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-07-23 (eighty-first round)
+Latest automation round: 2026-07-23 (eighty-second round)
 
 ## Completed in this round
 
-- Scanned all 8 monitored repos for new commits since the July 22 post; found new commits in 7 repos.
-- My-RU-Coverage: 1 new commit — round 87: main→главный (12 scripts), as f→as ф, tag→тег, MOEX key translation before report construction.
-- codex-console-english: 1 new commit — Round 90: replace em dash in settings.html placeholder.
-- mcp-russia: 2 new commits — _VyboryTableParser→_RazborshchikTablitsVyborov, _razobrat_status→_razobrat_sostoyanie, info_api→svedeniya_ob_api, call_next→vyzvat_sleduyushchiy, .env.example code_mode→rezhim_koda.
-- open-divine-divinity-rust-bevy: 2 new commits — 6 SystemParam structs (DialogContextData, CameraViewData, FactionQueryData, LoadAssetData, TrapQueryData, CompanionExplorationData), DialogChoiceEntry struct, clippy 46→38.
-- otclick: 1 new commit — API v0.31.0, api.py 100% coverage, overall 87%, dead code removal, expanded README with full endpoint docs.
-- ru-skill: 1 new commit — round 105: fix-changelog-headings.js error handling, k-skill-proxy startup russification, HH API audit.
-- wow_constructed_languages: 3 new commits — rounds 81–83: HTML-MD sync gaps (Zandali, Shath'Yar, Common, Orcish, Nerglish, Vulpera), CSS theme normalization across all vocabulary.html.
-- Created blog post: 2026-07-23-seven-repos-july23-batch-autowork.md.
-- Telegram channel t.me/nlp_party scanned; no new original posts by Denis Gordeev (recent activity is forwarded content — not attributable to Denis).
+- Scanned all 8 monitored repos for new commits since the July 23 post; no new commits found in any repo.
+- Telegram channel t.me/nlp_party scanned; no new original posts by Denis Gordeev (recent activity is forwarded content from ecom.tech, Samokat, FastML — not attributable to Denis).
+- No new blog post created — a post already exists for today (2026-07-23-seven-repos-july23-batch-autowork.md) and no new material is available.
 - Updated TODO.md with current round status.
 
 ## Telegram channel (t.me/nlp_party)
