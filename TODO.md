@@ -4,20 +4,20 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-07-22 (eightieth round)
+Latest automation round: 2026-07-23 (eighty-first round)
 
 ## Completed in this round
 
-- Scanned all 8 monitored repos for new commits since the morning 2026-07-22 post; found new commits in 6 repos.
-- My-RU-Coverage: 1 new commit — round 86: RHEL → Ред Хэт Энтерпрайз Линукс (ASTR), APC → APC Шнайдер Электрик (DATA), alias updates.
-- codex-console-english: 1 new commit — Round 89: no translatable content found (TODO.md only).
-- mcp-russia: 1 new commit — TableParser→RazborshchikTablitsVyborov, call_next→vyzvat_sleduyushchiy, code_mode→rezhim_koda, info_api→svedeniya_ob_api.
-- open-divine-divinity-rust-bevy: 1 new commit — DialogContextData SystemParam, DialogChoiceEntry struct, unused variable fix.
-- otclick: 3 new commits — coverage bump to 85% (db_pool 98%, rate_limit 100%, cache 98%, csv_backfill 77%), API v0.30.0; lazy rate limiter, queries tests.
-- ru-skill: 2 new commits — round 104: clean residual English jargon in plan; eliminate standalone «API» in interface docs (~70 occurrences in ~30 files).
-- wow_constructed_languages: 3 new commits — rounds 81–83: HTML-MD sync gaps (Zandali, Shath'Yar, Common, Orcish, Nerglish, Vulpera), CSS theme normalization across all vocabulary.html files.
+- Scanned all 8 monitored repos for new commits since the July 22 post; found new commits in 7 repos.
+- My-RU-Coverage: 1 new commit — round 87: main→главный (12 scripts), as f→as ф, tag→тег, MOEX key translation before report construction.
+- codex-console-english: 1 new commit — Round 90: replace em dash in settings.html placeholder.
+- mcp-russia: 2 new commits — _VyboryTableParser→_RazborshchikTablitsVyborov, _razobrat_status→_razobrat_sostoyanie, info_api→svedeniya_ob_api, call_next→vyzvat_sleduyushchiy, .env.example code_mode→rezhim_koda.
+- open-divine-divinity-rust-bevy: 2 new commits — 6 SystemParam structs (DialogContextData, CameraViewData, FactionQueryData, LoadAssetData, TrapQueryData, CompanionExplorationData), DialogChoiceEntry struct, clippy 46→38.
+- otclick: 1 new commit — API v0.31.0, api.py 100% coverage, overall 87%, dead code removal, expanded README with full endpoint docs.
+- ru-skill: 1 new commit — round 105: fix-changelog-headings.js error handling, k-skill-proxy startup russification, HH API audit.
+- wow_constructed_languages: 3 new commits — rounds 81–83: HTML-MD sync gaps (Zandali, Shath'Yar, Common, Orcish, Nerglish, Vulpera), CSS theme normalization across all vocabulary.html.
+- Created blog post: 2026-07-23-seven-repos-july23-batch-autowork.md.
 - Telegram channel t.me/nlp_party scanned; no new original posts by Denis Gordeev (recent activity is forwarded content — not attributable to Denis).
-- No new blog post created — one post already exists for 2026-07-22 (AUTOWORK policy: max one post per day).
 - Updated TODO.md with current round status.
 
 ## Telegram channel (t.me/nlp_party)
@@ -26,18 +26,17 @@ Latest automation round: 2026-07-22 (eightieth round)
 
 ## Next actions
 
-- Create next AUTOWORK blog post covering the 6 repos with new commits (My-RU-Coverage round 86, codex-console round 89, mcp-russia identifier russification, open-divine-divinity dialog system, otclick 85% coverage/API v0.30.0, ru-skill rounds 103–104, wow_constructed_languages rounds 81–83).
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Watch for new commits on all 8 monitored repos for follow-up posts.
-- Track wow_constructed_languages — Rounds 81–83 completed (July 22): HTML-MD sync gaps (Zandali, Shath'Yar, Common, Orcish, Nerglish, Vulpera), CSS theme normalization across all vocabulary.html; watch for Round 84+ with further cross-family fixes.
-- Track open-divine-divinity-rust-bevy — DialogContextData SystemParam, DialogChoiceEntry struct; watch for further dialog system, game mechanics, and gameplay features.
-- Track mcp-russia — TableParser→RazborshchikTablitsVyborov, call_next→vyzvat_sleduyushchiy, code_mode→rezhim_koda, info_api→svedeniya_ob_api; watch for continued russification of remaining English identifiers and docstrings.
-- Track My-RU-Coverage — round 86 completed (RHEL→Ред Хэт Энтерпрайз Линукс, APC→APC Шнайдер Электрик); watch for continued russification rounds.
-- Track ru-skill — round 104 completed (residual English jargon cleaned, standalone «API» eliminated); watch for continued audit rounds or new features.
+- Track wow_constructed_languages — Rounds 81–83 completed (July 22): HTML-MD sync gaps, CSS theme normalization across all vocabulary.html; watch for Round 84+ with further cross-family fixes.
+- Track open-divine-divinity-rust-bevy — 6 SystemParam structs, DialogChoiceEntry; watch for further dialog system, game mechanics, and gameplay features.
+- Track mcp-russia — continued identifier russification (_RazborshchikTablitsVyborov, _razobrat_sostoyanie, svedeniya_ob_api); watch for continued russification of remaining English identifiers and docstrings.
+- Track My-RU-Coverage — round 87 completed (main→главный, as f→as ф, tag→тег, MOEX keys); watch for continued russification rounds.
+- Track ru-skill — round 105 completed (fix-changelog-headings error handling, k-skill-proxy startup russification, HH API audit); watch for continued audit rounds or new features.
 - Track tg_summarizer — repo not found locally; watch for further cost/reliability improvements.
-- Track codex-console-english — round 89 verified fully English; watch for any new features or artifacts.
-- Track birdclef_2026 — competition closed; TODO.md cleaned up; future ideas queued for next BirdCLEF iteration.
-- Track otclick — coverage 85%, db_pool 98%, rate_limit 100%, cache 98%, csv_backfill 77%, API v0.30.0, lazy rate limiter, queries tests; watch for further development.
+- Track codex-console-english — round 90 (em dash fix); watch for any new features or artifacts.
+- Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
+- Track otclick — coverage 87%, api.py 100%, API v0.31.0, dead code removal, expanded README; watch for further development.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
 - Consider exposing the feed link in the header or footer if more posts accumulate.
