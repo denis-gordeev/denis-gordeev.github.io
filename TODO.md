@@ -4,13 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-07-27 (eighty-sixth round)
+Latest automation round: 2026-07-28 (eighty-seventh round)
 
 ## Completed in this round
 
-- Scanned all 8 monitored repos for new commits since July 25; 3 repos have new commits (wow_constructed_languages 3, mcp-russia 1, codex-console-english 1).
+- Scanned all 8 monitored repos for new commits since July 27; 7 repos have new commits (wow_constructed_languages 1, mcp-russia 1, codex-console-english 1, open-divine-divinity-rust-bevy 2, My-RU-Coverage 2, ru-skill 2, otclick 6). Only birdclef_2026 has no new meaningful changes.
 - Telegram channel t.me/nlp_party scanned; no new original posts by Denis Gordeev (recent activity is forwarded content from ecom.tech, Samokat, FastML — not attributable to Denis).
-- Created blog post: 2026-07-27-three-repos-july27-batch-autowork.md covering wow rounds 92–94, mcp-russia docs fixes, codex-console round 94.
+- Created blog post: 2026-07-28-seven-repos-july28-batch-autowork.md covering wow round 95, divine-divinity 104 new tests, otclick Alembic migrations v0.42.0, ru-coverage rounds 90–91, ru-skill rounds 110–111, mcp-russia URI fixes, codex-console round 95.
 - Updated TODO.md with current round status.
 
 ## Telegram channel (t.me/nlp_party)
@@ -21,15 +21,15 @@ Latest automation round: 2026-07-27 (eighty-sixth round)
 
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Watch for new commits on all 8 monitored repos for follow-up posts.
-- Track wow_constructed_languages — Rounds 92–94 completed (July 27): CSS theme normalization, h3 color fix across 60 files, HTML-MD sync (thalassian, pandaren, vrykul, sethrak, drust, dwarven, common, vulpera); watch for Round 95+.
-- Track open-divine-divinity-rust-bevy — repo appears private/inaccessible via web; last known state: 35 total SystemParam structs (6+14+15), clippy 28→0; watch for further refactoring (may need `gh auth` to check).
-- Track mcp-russia — docs fix: eliminated "adaptation" phrasing, fixed nonexistent tools/parameters in examples; watch for continued russification and feature development.
-- Track My-RU-Coverage — round 89 completed (ИТ-решения→ИТ-продукты, ИТ-стек→ИТ-компоненты, ФСФР URL fix); watch for continued russification rounds.
-- Track ru-skill — round 108 completed (CLI/парсинг/legacy revert elimination); watch for continued audit rounds or new features.
+- Track wow_constructed_languages — Round 95 completed (July 28): HTML-MD sync fixes for shath-yar, darnassian, zandali (anchor normalization, factual errors, heading hierarchy, cross-references); watch for Round 96+.
+- Track open-divine-divinity-rust-bevy — 104 new unit tests (1013→1117), major helper extraction (process_damage_events, handle_skill_minigame_input, build_dialog_tree_from_text, create_initial_quests, crafting_recipes), Quest/CraftingRecipe constructors, zero clippy warnings; watch for continued refactoring and test growth.
+- Track mcp-russia — URI fixes for deloproizvodstvo, typo corrections, README cleanup, _e2e→_skvozn; watch for continued russification and feature development.
+- Track My-RU-Coverage — rounds 90–91 completed (CSPC→ЦСПЦ, SCM→СКМ, Байкал Электроник→Электроникс, ТЕМЫ_RU→ТЕМЫ_РФ, markdown→мд, ISS→ИСС); watch for continued russification rounds.
+- Track ru-skill — rounds 110–111 completed (jargon audit: train-search, npm-скриптов, CLI; eliminate CLI/cookie reverts in delivery-tracking); watch for continued audit rounds or new features.
 - Track tg_summarizer — repo not found locally; watch for further cost/reliability improvements.
-- Track codex-console-english — round 94 completed (calque "Check topic" → "Check subject"); watch for any new features or artifacts.
+- Track codex-console-english — round 95 completed (awkward phrasing fix in utils.py docstring); watch for any new features or artifacts.
 - Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
-- Track otclick — repo appears private/inaccessible via web; last known state: coverage 93%, API v0.38.0, CORS/auth/rate-limit error envelopes, lazy init; watch for further development (may need `gh auth` to check).
+- Track otclick — major update: Alembic migration support with SCHEMA_MIGRATION_MODE, advisory lock, diagnostics CLI, config consistency, coverage omit fix, API v0.42.0; watch for further development.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
 - Add a lightweight projects or talks section if there is public material worth linking from the About page.
 - Consider exposing the feed link in the header or footer if more posts accumulate.
