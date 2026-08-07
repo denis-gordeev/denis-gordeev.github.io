@@ -4,13 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-08-06 (ninety-fourth round)
+Latest automation round: 2026-08-07 (ninety-fifth round)
 
 ## Completed in this round
 
 - Scanned all 8 monitored repos for new commits since the previous round; 7 repos have new commits (wow_constructed_languages, mcp-russia, open-divine-divinity-rust-bevy, otclick, ru-skill, My-RU-Coverage, codex-console-english). birdclef_2026 has no new commits.
-- Telegram channel t.me/nlp_party could not be fetched (transport error); no new original posts by Denis Gordeev since April 27, 2026.
-- Created blog post: 2026-08-06-seven-repos-august6-autowork.md covering wow_constructed_languages Round 106, mcp-russia metadata actualization, divine-divinity dedup + 27 tests, otclick v0.51.0 + GitLab CI, ru-skill rounds 117–118, ru-coverage rounds 96–97, codex-console rounds 101–102.
+- Telegram channel t.me/nlp_party has no new original posts by Denis Gordeev since April 27, 2026 (recent activity is forwarded content — not attributable to Denis).
+- Created blog post: 2026-08-07-seven-repos-august7-autowork.md covering wow Rounds 107–108 (CSS normalization, HTML-MD sync), mcp-russia МВД+Ростехнадзор modules + 244 tools, divine-divinity 7→28 helpers + 1278 tests, otclick v0.52–v0.53, ru-skill Round 119, ru-coverage Round 98, codex-console Round 103.
 - Updated TODO.md with current round status.
 
 ## Telegram channel (t.me/nlp_party)
@@ -21,13 +21,13 @@ Latest automation round: 2026-08-06 (ninety-fourth round)
 
 - Keep adding AUTOWORK posts only when there is meaningful public update and not more than once per day.
 - Watch for new commits on all 8 monitored repos for follow-up posts.
-- Track mcp-russia — metadata actualization completed, 0 mypy errors, 784 tests; added operatsii_trebuyut_avtorizatsii field and generate_tool_reference.py; watch for continued tool expansion and russification.
-- Track wow_constructed_languages — Round 106 completed (gnomish, nerubian, qiraji, mogu HTML-MD sync); Rounds 104–106 bring total to 10 directories audited since Round 103; watch for Round 107+.
-- Track open-divine-divinity-rust-bevy — 1243 tests after deduplicating handle_save_load, extracting handle_skill_hotkeys and spawn_interactive_objects; watch for continued refactoring and test growth.
-- Track otclick — v0.51.0 reached (late_limit cache fix, Docker image trim, GitLab CI pipeline); watch for continued development.
-- Track ru-skill — round 118 completed (legacy-compatible endpoints, proxy/fine-dust cleanup); watch for continued audit rounds.
-- Track My-RU-Coverage — rounds 96–97 completed (wikilink grammatical cases, skill-file Russian names); watch for continued russification rounds.
-- Track codex-console-english — Round 102 completed (Chinese-English calque fixes); watch for continued calque fixes.
+- Track mcp-russia — 26 modules, 244 tools, 823 tests; МВД and Ростехнадзор added with network contract tests; watch for continued module expansion and russification.
+- Track wow_constructed_languages — Rounds 107–108 completed (CSS normalization phase 2, ethereal/shath-yar/zandali sync); watch for Round 109+.
+- Track open-divine-divinity-rust-bevy — 1278 tests after extracting 7 large functions into 28 helpers; all clippy warnings eliminated; watch for continued refactoring and test growth.
+- Track otclick — v0.53.0 reached (TRUSTED_PROXIES, restart policies, 64 rate limit tests); watch for continued development.
+- Track ru-skill — Round 119 completed (SSR format consistency in yandex-market-search); watch for continued audit rounds.
+- Track My-RU-Coverage — Round 98 completed (логистические→транспортно-складские, Windows→Виндовс); watch for continued russification rounds.
+- Track codex-console-english — Round 103 completed (~42 calque fixes); watch for continued calque fixes.
 - Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
 - Track tg_summarizer — repo not found locally; watch for further cost/reliability improvements.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
