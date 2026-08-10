@@ -4,13 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-08-10 (ninety-seventh round)
+Latest automation round: 2026-08-10 (ninety-eighth round)
 
 ## Completed in this round
 
-- Scanned all 8 monitored repos for new commits since the previous round; 7 repos have new commits (wow_constructed_languages, mcp-russia, open-divine-divinity-rust-bevy, otclick, ru-skill, codex-console-english, My-RU-Coverage). birdclef_2026 is not found locally.
+- Scanned all 8 monitored repos for new commits since the previous round; 7 repos have new commits (wow_constructed_languages, mcp-russia, open-divine-divinity-rust-bevy, otclick, ru-skill, My-RU-Coverage, codex-console-english). birdclef_2026 is not found locally.
 - Telegram channel t.me/nlp_party has no new original posts by Denis Gordeev since April 27, 2026 (recent activity is forwarded content — not attributable to Denis).
-- Created blog post for 2026-08-10 covering: wow Rounds 109–111, mcp-russia dinamika_regiona + 27 modules/250 tools, divine-divinity 1278→1306 tests, otclick v0.54–v0.56, ru-skill Round 120, ru-coverage Round 99, codex-console Round 105.
+- Created blog post for 2026-08-10 (late) covering: wow Rounds 112–114, mcp-russia 6 new Росстат tools + ФО russification + ЕМИСС contract tests (256 tools), divine-divinity 1306→1321 tests, otclick v0.57 + production hardening, ru-skill Round 121, ru-coverage Round 100, codex-console ~22 calque fixes.
 - Updated TODO.md with current round status.
 
 ## Telegram channel (t.me/nlp_party)
@@ -20,13 +20,13 @@ Latest automation round: 2026-08-10 (ninety-seventh round)
 ## Next actions
 
 - Watch for new commits on all 8 monitored repos for follow-up posts.
-- Track mcp-russia — 27 modules, 250 tools, 87 resources, 59 prompts; dinamika_regiona + sravnenie_okrugov added; watch for continued module expansion.
-- Track wow_constructed_languages — Rounds 109–111 completed (IPA consistency, header/IPA wrapper fixes across 88 files); watch for Round 112+.
-- Track open-divine-divinity-rust-bevy — 1306 tests after spawn/equipment/dialog/map helper extraction (22 helpers from 8 functions); watch for continued refactoring and test growth.
-- Track otclick — v0.56.0 reached (JSON parse safety, lazy config, CSP, i18n table headers, CI hardening); watch for continued development.
-- Track ru-skill — Round 120 completed (English h1, SSR/CSR abbreviations); watch for continued audit rounds.
-- Track My-RU-Coverage — Round 99 completed (интернет-→онлайн-, i/j→и/ж, 11 aliases); watch for continued russification rounds.
-- Track codex-console-english — Round 105 (Chinese-English calque fixes); watch for further calque fixes.
+- Track mcp-russia — 27 modules, 256 tools; 6 new Росстат tools (GDP, unemployment, income, industry, poverty, pension); ФО codes russified; watch for continued module expansion.
+- Track wow_constructed_languages — Rounds 112–114 completed (490+ HTML issues, em-dash/IPA fixes across 52+ files); watch for Round 115+.
+- Track open-divine-divinity-rust-bevy — 1321 tests after extracting 18 helpers from 9 functions (damage/enchant/boss/drag/spawn/interaction/skill/dialog/load); watch for continued refactoring and test growth.
+- Track otclick — production hardening reached (CORS, rate limit, ES security, E2E CI, security gates); v0.57 with type annotations and 108 API tests; watch for continued development.
+- Track ru-skill — Round 121 completed (PR → запрос на слияние); watch for continued audit rounds.
+- Track My-RU-Coverage — Round 100 completed (--json → --джсон, last English CLI flag); watch for continued russification.
+- Track codex-console-english — ~22 more Chinese-English calque fixes; watch for further calque fixes.
 - Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
 - Track tg_summarizer — repo not found locally; watch for further cost/reliability improvements.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
