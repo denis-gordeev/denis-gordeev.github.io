@@ -4,13 +4,13 @@ published: false
 
 # TODO
 
-Latest automation round: 2026-08-18 (round 106)
+Latest automation round: 2026-08-19 (round 107)
 
 ## Completed in this round
 
-- Scanned all 8 monitored repos for new commits since round 105; 5 repos have new commits (open-divine-divinity-rust-bevy, ru-skill, otclick, mcp-russia, My-RU-Coverage). codex-console-english has a TODO-only update (round 113 scan clean, no code changes). wow_constructed_languages has no new commits. birdclef_2026 is not found locally.
+- Scanned all 8 monitored repos for new commits since round 106; 6 repos have new commits (ru-skill, otclick, mcp-russia, My-RU-Coverage, wow_constructed_languages, codex-console-english). open-divine-divinity-rust-bevy has no new commits. birdclef_2026 is not found locally.
 - Telegram channel t.me/nlp_party has no new original posts by Denis Gordeev since April 27, 2026 (recent activity is forwarded content — not attributable to Denis).
-- Created blog post for 2026-08-18 covering: divine-divinity crafting_panel + enchanting_panel + stats_panel extraction (1534→1566 tests, game.rs 19219→18079), ru-skill Round 129 (поверхность→интерфейс, legacy→устаревший, English-first hybrids→Russian-first), otclick digest-pinned CI + verify-signatures gate + immutable deploy refs, mcp-russia metadata refresh 0.5.0→0.6.0, My-RU-Coverage Round 108 (контур→система/направление, масштабировать→наращивать, wikilink cases), codex-console Round 113 scan clean.
+- Created blog post for 2026-08-19 covering: otclick fail-closed deployment profiles (API v0.59.0, 493→508 tests, APP_ENV staging/production validation), ru-skill Round 130 (CLI пояснения, английские h1/метки в tg/, Fastify/station-list кавычки), mcp-russia auth metadata sync + docs refresh (24→27 modules), My-RU-Coverage Round 109 (путь_джсон, построить_хтмл, 5 падежей викилинков, full russification+wikilink audits complete), wow_constructed_languages Rounds 129–130 (HTML quality fixes, &asymp;/&sect; entities, missing headings), codex-console-english Rounds 114–115 (scan clean).
 - Updated TODO.md with current round status.
 
 ## Telegram channel (t.me/nlp_party)
@@ -20,13 +20,13 @@ Latest automation round: 2026-08-18 (round 106)
 ## Next actions
 
 - Watch for new commits on all 8 monitored repos for follow-up posts.
-- Track wow_constructed_languages — Round 127 completed (bare /uː/ in Harani); watch for Round 128+.
-- Track mcp-russia — metadata refreshed (0.5.0→0.6.0, tool names, comments); watch for continued polish.
-- Track open-divine-divinity-rust-bevy — 1566 tests after crafting_panel + enchanting_panel + stats_panel extraction; game.rs at 18079 lines; watch for continued refactoring (enemy AI, dialog, skill minigame, save/load, puzzle, rune combo, companion hints modules remain).
-- Track otclick — digest-pinned CI + verify-signatures gate + immutable deploy refs; watch for certificate-identity-regexp narrowing, runtime API validation, browser E2E history/presets.
-- Track ru-skill — Round 129 completed (поверхность→интерфейс, legacy→устаревший, hybrids→Russian-first); watch for continued audit rounds.
-- Track My-RU-Coverage — Round 108 completed (контур→система/направление, масштабировать→наращивать, wikilink cases); watch for continued russification and full wikilink case audit.
-- Track codex-console-english — Round 113 scan clean; watch for further calque fixes.
+- Track wow_constructed_languages — Rounds 129–130 completed (HTML quality, &asymp;/&sect; entities, missing headings); watch for Round 131+.
+- Track mcp-russia — auth metadata synced (27 modules, operatsii_trebuyut_avtorizatsii aligned, docs refreshed); watch for continued polish.
+- Track open-divine-divinity-rust-bevy — 1566 tests after crafting_panel + enchanting_panel + stats_panel extraction; game.rs at 18079 lines; watch for continued refactoring.
+- Track otclick — fail-closed deployment profiles (API v0.59.0, 508 tests); watch for post-deploy security smoke, API key rotation, production-readiness diagnostics.
+- Track ru-skill — Round 130 completed (CLI пояснения, английские h1/метки, кавычки); watch for continued audit rounds.
+- Track My-RU-Coverage — Round 109 completed (путь_джсон, построить_хтмл, wikilink cases); full russification and wikilink audits both complete — watch for new reports/anglicisms.
+- Track codex-console-english — Rounds 114–115 scan clean; watch for further calque fixes.
 - Track birdclef_2026 — competition closed; future ideas queued for next BirdCLEF iteration.
 - Track tg_summarizer — repo not found locally; watch for further cost/reliability improvements.
 - Refresh the CV file if a newer public version is available (current CV is from 2022).
